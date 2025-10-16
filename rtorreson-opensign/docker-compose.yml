@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-opensign_opensign_1
+      APP_PORT: 3000
+    
+  opensign:
+    image: opensignlabs/opensign:latest
+    environment:
+      DATABASE_URL: postgres://opensign:opensign@postgres:5432/opensign
+      APP_URL: http://localhost:3000
+    volumes:
+      - opensign_data:/app/data
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: opensign
+      POSTGRES_USER: opensign
+      POSTGRES_PASSWORD: opensign
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  opensign_data:
+  postgres_data:
+

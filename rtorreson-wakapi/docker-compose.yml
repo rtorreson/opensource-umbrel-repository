@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-wakapi_wakapi_1
+      APP_PORT: 3000
+    
+  wakapi:
+    image: ghcr.io/muety/wakapi:latest
+    environment:
+      WAKAPI_PASSWORD_SALT: change-this-salt
+      WAKAPI_DB_TYPE: sqlite3
+      WAKAPI_DB_USER: wakapi
+      WAKAPI_DB_PASSWORD: wakapi
+      WAKAPI_DB_NAME: wakapi
+    volumes:
+      - wakapi_data:/data
+    restart: unless-stopped
+
+volumes:
+  wakapi_data:
+

@@ -1,0 +1,42 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-airbyte_webapp_1
+      APP_PORT: 8000
+    
+  webapp:
+    image: airbyte/webapp:latest
+    environment:
+      AIRBYTE_VERSION: latest
+      API_URL: http://server:8001/api/v1/
+    depends_on:
+      - server
+    restart: unless-stopped
+
+  server:
+    image: airbyte/server:latest
+    environment:
+      DATABASE_URL: postgres://airbyte:airbyte@postgres:5432/airbyte
+      WORKSPACE_ROOT: /tmp/workspace
+    volumes:
+      - airbyte_workspace:/tmp/workspace
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: airbyte
+      POSTGRES_USER: airbyte
+      POSTGRES_PASSWORD: airbyte
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  airbyte_workspace:
+  postgres_data:
+

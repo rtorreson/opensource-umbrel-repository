@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: rtorreson-twenty
+name: Twenty
+tagline: Modern open source CRM built for flexibility
+icon: https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-front/public/icons/android/android-launchericon-192-192.png
+category: Business
+version: "1.0.0"
+port: 3000
+description: >-
+  Twenty is a modern CRM designed to be flexible and extensible.
+  
+  Key features:
+  - Customizable data model
+  - Advanced filtering and views
+  - Task and pipeline management
+  - Email integration
+  - API and GraphQL
+  - Modern and intuitive UI
+  - Self-hosted
+
+developer: Twenty Team
+website: https://twenty.com
+submitter: Rafael Torreson
+submission: https://github.com/twentyhq/twenty
+repo: https://github.com/twentyhq/twenty
+support: https://github.com/twentyhq/twenty/issues
+gallery:
+  - https://twenty.com/images/screenshot-companies.png
+  - https://twenty.com/images/screenshot-people.png
+releaseNotes: Initial release of Twenty CRM for Umbrel Community App Store.
+dependencies: []
+path: ""
+defaultUsername: "admin@twenty.com"
+defaultPassword: "admin"
+

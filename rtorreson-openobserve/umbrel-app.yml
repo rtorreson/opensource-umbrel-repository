@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: rtorreson-openobserve
+name: OpenObserve
+tagline: Cloud-native observability platform for logs, metrics, and traces
+icon: https://raw.githubusercontent.com/openobserve/openobserve/main/web/public/logo.svg
+category: Monitoring
+version: "1.0.0"
+port: 5080
+description: >-
+  OpenObserve is a petabyte-scale observability platform built for logs, metrics, and traces.
+  
+  Key features:
+  - Logs, metrics, and traces in one platform
+  - 140x lower storage costs
+  - Advanced SQL and PromQL support
+  - Real-time search and alerting
+  - Dashboards and visualizations
+  - OpenTelemetry compatible
+  - Self-hosted
+
+developer: OpenObserve
+website: https://openobserve.ai
+submitter: Rafael Torreson
+submission: https://github.com/openobserve/openobserve
+repo: https://github.com/openobserve/openobserve
+support: https://github.com/openobserve/openobserve/issues
+gallery:
+  - https://openobserve.ai/images/screenshot-logs.png
+  - https://openobserve.ai/images/screenshot-dashboard.png
+releaseNotes: Initial release of OpenObserve for Umbrel Community App Store.
+dependencies: []
+path: ""
+defaultUsername: "admin@openobserve.ai"
+defaultPassword: "Complexpass#123"
+

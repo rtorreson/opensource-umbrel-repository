@@ -1,21 +1,21 @@
 manifestVersion: 1
 id: rtorreson-documenso
 name: Documenso
-tagline: Plataforma de assinatura de documentos open source
-icon: https://documenso.com/images/logo.png
+tagline: Open source document signing platform
+icon: https://raw.githubusercontent.com/documenso/documenso/main/public/logo.png
 category: Productivity
 version: "1.0.0"
 port: 3000
 description: >-
-  Documenso é uma plataforma moderna de assinatura de documentos open source.
+  Documenso is a modern open source document signing platform.
   
-  Características principais:
-  - Assinatura eletrônica de documentos
-  - Templates de documentos reutilizáveis
-  - Fluxos de trabalho personalizáveis
-  - Interface moderna e intuitiva
-  - API para integrações
-  - Relatórios e auditoria
+  Key features:
+  - Electronic document signing
+  - Reusable document templates
+  - Customizable workflows
+  - Modern and intuitive interface
+  - API for integrations
+  - Reports and audit logs
 
 developer: Documenso Team
 website: https://documenso.com
@@ -26,7 +26,7 @@ support: https://github.com/documenso/documenso/issues
 gallery:
   - https://documenso.com/images/screenshot-1.png
   - https://documenso.com/images/screenshot-2.png
-releaseNotes: Versão inicial do Documenso para Umbrel Community App Store.
+releaseNotes: Initial release of Documenso for Umbrel Community App Store.
 dependencies: []
 path: ""
 defaultUsername: "admin@documenso.com"

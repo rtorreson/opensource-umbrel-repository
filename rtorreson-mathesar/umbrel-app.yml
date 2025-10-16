@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: rtorreson-mathesar
+name: Mathesar
+tagline: Intuitive database interface for PostgreSQL
+icon: https://raw.githubusercontent.com/centerofci/mathesar/master/mathesar/static/favicon.ico
+category: Data & Analytics
+version: "1.0.0"
+port: 8000
+description: >-
+  Mathesar provides an intuitive interface for working with PostgreSQL databases.
+  
+  Key features:
+  - Spreadsheet-like interface
+  - No SQL knowledge required
+  - Data visualization
+  - Custom views and filters
+  - Import/export CSV
+  - Collaborative database management
+  - Self-hosted
+
+developer: Center of Complex Interventions
+website: https://mathesar.org
+submitter: Rafael Torreson
+submission: https://github.com/centerofci/mathesar
+repo: https://github.com/centerofci/mathesar
+support: https://github.com/centerofci/mathesar/issues
+gallery:
+  - https://mathesar.org/images/screenshot-table.png
+  - https://mathesar.org/images/screenshot-schema.png
+releaseNotes: Initial release of Mathesar for Umbrel Community App Store.
+dependencies: []
+path: ""
+

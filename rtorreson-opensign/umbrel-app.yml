@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: rtorreson-opensign
+name: OpenSign
+tagline: Open source document signing platform
+icon: https://raw.githubusercontent.com/OpenSignLabs/OpenSign/main/apps/OpenSign/public/favicon.ico
+category: Productivity
+version: "1.0.0"
+port: 3000
+description: >-
+  OpenSign is a free and open source alternative to DocuSign.
+  
+  Key features:
+  - Unlimited document signing
+  - Templates and workflows
+  - Multi-party signing
+  - Mobile responsive
+  - Audit trail and certificates
+  - Self-hosted and secure
+  - No per-document fees
+
+developer: OpenSign Labs
+website: https://www.opensignlabs.com
+submitter: Rafael Torreson
+submission: https://github.com/OpenSignLabs/OpenSign
+repo: https://github.com/OpenSignLabs/OpenSign
+support: https://github.com/OpenSignLabs/OpenSign/issues
+gallery:
+  - https://www.opensignlabs.com/img/screenshot-sign.png
+  - https://www.opensignlabs.com/img/screenshot-dashboard.png
+releaseNotes: Initial release of OpenSign for Umbrel Community App Store.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+

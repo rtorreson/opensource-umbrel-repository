@@ -1,21 +1,21 @@
 manifestVersion: 1
 id: rtorreson-netdata
 name: Netdata
-tagline: Monitoramento em tempo real com visualizações poderosas
-icon: https://www.netdata.cloud/favicon.ico
+tagline: Real-time monitoring with powerful visualizations
+icon: https://raw.githubusercontent.com/netdata/netdata/master/web/gui/static/img/netdata-logomark.svg
 category: Monitoring
 version: "1.0.0"
 port: 19999
 description: >-
-  Netdata é uma plataforma de monitoramento em tempo real com visualizações detalhadas.
+  Netdata is a real-time monitoring platform with detailed visualizations.
   
-  Características principais:
-  - Monitoramento em tempo real
-  - Métricas de sistema e aplicações
-  - Alertas inteligentes
-  - Dashboard altamente customizáveis
-  - Baixo consumo de recursos
-  - Integração com 300+ serviços
+  Key features:
+  - Real-time monitoring
+  - System and application metrics
+  - Smart alerts
+  - Highly customizable dashboards
+  - Low resource consumption
+  - Integration with 300+ services
 
 developer: Netdata Team
 website: https://www.netdata.cloud
@@ -26,6 +26,6 @@ support: https://github.com/netdata/netdata/issues
 gallery:
   - https://www.netdata.cloud/images/screenshot-dashboard.png
   - https://www.netdata.cloud/images/screenshot-metrics.png
-releaseNotes: Versão inicial do Netdata para Umbrel Community App Store.
+releaseNotes: Initial release of Netdata for Umbrel Community App Store.
 dependencies: []
 path: ""

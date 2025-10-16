@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: rtorreson-kanri
+name: Kanri
+tagline: Offline-first Kanban board for personal task management
+icon: https://raw.githubusercontent.com/trobonox/kanri/main/public/logo.png
+category: Productivity
+version: "1.0.0"
+port: 3000
+description: >-
+  Kanri is a simple, offline-first Kanban board application for managing tasks.
+  
+  Key features:
+  - Offline-first architecture
+  - Simple and clean interface
+  - Drag and drop cards
+  - Multiple boards
+  - Customizable columns
+  - Local data storage
+  - Lightweight and fast
+
+developer: Trobonox
+website: https://kanriapp.com
+submitter: Rafael Torreson
+submission: https://github.com/trobonox/kanri
+repo: https://github.com/trobonox/kanri
+support: https://github.com/trobonox/kanri/issues
+gallery:
+  - https://kanriapp.com/images/screenshot-board.png
+releaseNotes: Initial release of Kanri for Umbrel Community App Store.
+dependencies: []
+path: ""
+

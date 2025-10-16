@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: rtorreson-invoicify
 name: Invoicify
-tagline: Sistema de faturamento e invoices open source
-icon: https://invoicify.app/favicon.ico
+tagline: Open source billing and invoicing system
+icon: https://raw.githubusercontent.com/invoiceninja/invoiceninja/v5-stable/public/images/icon.png
 category: Business
 version: "1.0.0"
 port: 3000
 description: >-
-  Invoicify é um sistema completo de faturamento e gerenciamento de invoices.
+  Invoicify is a complete billing and invoice management system.
   
-  Características principais:
-  - Criação de invoices profissionais
-  - Templates personalizáveis
-  - Gestão de clientes e produtos
-  - Notificações automáticas
-  - Relatórios financeiros
-  - Multi-moeda e impostos
-  - Integração com gateways de pagamento
+  Key features:
+  - Professional invoice creation
+  - Customizable templates
+  - Client and product management
+  - Automatic notifications
+  - Financial reports
+  - Multi-currency and taxes
+  - Payment gateway integration
 
 developer: Invoicify Team
 website: https://invoicify.app
@@ -27,7 +27,7 @@ support: https://github.com/invoicify/invoicify/issues
 gallery:
   - https://invoicify.app/images/screenshot-dashboard.png
   - https://invoicify.app/images/screenshot-invoice.png
-releaseNotes: Versão inicial do Invoicify para Umbrel Community App Store.
+releaseNotes: Initial release of Invoicify for Umbrel Community App Store.
 dependencies: []
 path: ""
 defaultUsername: "admin@invoicify.com"

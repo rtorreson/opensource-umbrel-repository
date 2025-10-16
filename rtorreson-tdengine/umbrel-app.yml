@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: rtorreson-tdengine
+name: TDEngine
+tagline: High-performance time-series database
+icon: https://raw.githubusercontent.com/taosdata/TDengine/main/docs/assets/tdengine-logo.svg
+category: Data & Analytics
+version: "1.0.0"
+port: 6041
+description: >-
+  TDEngine is a high-performance time-series database for IoT and industrial applications.
+  
+  Key features:
+  - 10x faster than general databases
+  - SQL-like query language
+  - Built-in caching and stream processing
+  - Horizontal scalability
+  - High compression ratio
+  - RESTful API and connectors
+  - Optimized for time-series data
+
+developer: TDengine
+website: https://tdengine.com
+submitter: Rafael Torreson
+submission: https://github.com/taosdata/TDengine
+repo: https://github.com/taosdata/TDengine
+support: https://github.com/taosdata/TDengine/issues
+gallery:
+  - https://tdengine.com/images/screenshot-dashboard.png
+releaseNotes: Initial release of TDEngine for Umbrel Community App Store.
+dependencies: []
+path: ""
+defaultUsername: "root"
+defaultPassword: "taosdata"
+

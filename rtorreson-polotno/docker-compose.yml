@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-polotno_polotno_1
+      APP_PORT: 3000
+    
+  polotno:
+    image: polotno/polotno-studio:latest
+    restart: unless-stopped
+

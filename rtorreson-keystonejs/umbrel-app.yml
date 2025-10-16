@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: rtorreson-keystonejs
+name: KeystoneJS
+tagline: Powerful CMS and application framework
+icon: https://raw.githubusercontent.com/keystonejs/keystone/main/docs/public/favicon.png
+category: Business
+version: "1.0.0"
+port: 3000
+description: >-
+  KeystoneJS is a powerful headless CMS and GraphQL API platform.
+  
+  Key features:
+  - Powerful GraphQL API
+  - Flexible content modeling
+  - Beautiful admin UI
+  - Authentication and access control
+  - File and image management
+  - Extensible with custom fields
+  - Built with React and Node.js
+
+developer: Keystone Team
+website: https://keystonejs.com
+submitter: Rafael Torreson
+submission: https://github.com/keystonejs/keystone
+repo: https://github.com/keystonejs/keystone
+support: https://github.com/keystonejs/keystone/issues
+gallery:
+  - https://keystonejs.com/images/screenshot-admin.png
+releaseNotes: Initial release of KeystoneJS for Umbrel Community App Store.
+dependencies: []
+path: ""
+defaultUsername: "admin@keystonejs.com"
+defaultPassword: "admin123"
+

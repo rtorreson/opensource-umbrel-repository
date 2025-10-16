@@ -1,21 +1,21 @@
 manifestVersion: 1
 id: rtorreson-vaultwarden
 name: Vaultwarden
-tagline: Implementação leve e auto-hospedada do Bitwarden
+tagline: Lightweight self-hosted Bitwarden implementation
 icon: https://vaultwarden.org/images/logo.png
 category: Security
 version: "1.0.0"
 port: 80
 description: >-
-  Vaultwarden é uma implementação alternativa do Bitwarden escrita em Rust.
+  Vaultwarden is an alternative Bitwarden implementation written in Rust.
   
-  Características principais:
-  - Gerenciamento de senhas seguro
-  - Sincronização entre dispositivos
-  - Autenticação de dois fatores
-  - Compartilhamento seguro de senhas
-  - Geração de senhas fortes
-  - Compatível com clientes Bitwarden oficiais
+  Key features:
+  - Secure password management
+  - Cross-device synchronization
+  - Two-factor authentication
+  - Secure password sharing
+  - Strong password generation
+  - Compatible with official Bitwarden clients
 
 developer: Vaultwarden Team
 website: https://vaultwarden.org
@@ -25,6 +25,6 @@ repo: https://github.com/dani-garcia/vaultwarden
 support: https://github.com/dani-garcia/vaultwarden/issues
 gallery:
   - https://vaultwarden.org/images/screenshot-web-vault.png
-releaseNotes: Versão inicial do Vaultwarden para Umbrel Community App Store.
+releaseNotes: Initial release of Vaultwarden for Umbrel Community App Store.
 dependencies: []
 path: ""

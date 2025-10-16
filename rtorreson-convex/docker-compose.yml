@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-convex_convex_1
+      APP_PORT: 3000
+    
+  convex:
+    image: convex/backend:latest
+    environment:
+      CONVEX_SITE_URL: http://localhost:3000
+    volumes:
+      - convex_data:/data
+    restart: unless-stopped
+
+volumes:
+  convex_data:
+

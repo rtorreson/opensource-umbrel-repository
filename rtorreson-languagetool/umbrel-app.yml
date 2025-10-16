@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: rtorreson-languagetool
+name: LanguageTool
+tagline: Open source proofreading and grammar checker
+icon: https://raw.githubusercontent.com/languagetool-org/languagetool/master/languagetool-standalone/src/main/resources/org/languagetool/resource/lt-icon.png
+category: Utilities
+version: "1.0.0"
+port: 8010
+description: >-
+  LanguageTool is an open source proofreading software for multiple languages.
+  
+  Key features:
+  - Grammar and spell checking
+  - Supports 30+ languages
+  - Style suggestions
+  - Browser extensions available
+  - API for integrations
+  - Privacy-focused
+  - Self-hosted
+
+developer: LanguageTool
+website: https://languagetool.org
+submitter: Rafael Torreson
+submission: https://github.com/languagetool-org/languagetool
+repo: https://github.com/languagetool-org/languagetool
+support: https://github.com/languagetool-org/languagetool/issues
+gallery:
+  - https://languagetool.org/images/screenshot-editor.png
+releaseNotes: Initial release of LanguageTool for Umbrel Community App Store.
+dependencies: []
+path: ""
+

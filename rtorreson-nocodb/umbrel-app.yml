@@ -1,21 +1,21 @@
 manifestVersion: 1
 id: rtorreson-nocodb
 name: NocoDB
-tagline: Airtable alternativo open source transforma bancos em smart spreadsheets
+tagline: Open source Airtable alternative turns databases into smart spreadsheets
 icon: https://nocodb.com/favicon.ico
 category: Development
 version: "1.0.0"
 port: 8080
 description: >-
-  NocoDB transforma qualquer banco de dados em uma interface de spreadsheet inteligente.
+  NocoDB turns any database into a smart spreadsheet interface.
   
-  Características principais:
-  - Interface tipo Airtable/Google Sheets
-  - Conecta com MySQL, PG, SQL Server, etc.
+  Key features:
+  - Airtable/Google Sheets-like interface
+  - Connects with MySQL, PG, SQL Server, etc.
   - Views: Grid, Gallery, Form, Calendar
-  - Colaboração em tempo real
-  - API REST e GraphQL
-  - Workflows e automações
+  - Real-time collaboration
+  - REST and GraphQL API
+  - Workflows and automations
 
 developer: NocoDB Team
 website: https://nocodb.com
@@ -27,7 +27,7 @@ gallery:
   - https://nocodb.com/images/screenshot-grid.png
   - https://nocodb.com/images/screenshot-gallery.png
   - https://nocodb.com/images/screenshot-form.png
-releaseNotes: Versão inicial do NocoDB para Umbrel Community App Store.
+releaseNotes: Initial release of NocoDB for Umbrel Community App Store.
 dependencies: []
 path: ""
 defaultUsername: "user@nocodb.com"

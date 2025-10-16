@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: rtorreson-defguard
+name: Defguard
+tagline: Open source VPN and SSO/2FA platform
+icon: https://raw.githubusercontent.com/DefGuard/defguard/main/web/public/favicon.ico
+category: Security
+version: "1.0.0"
+port: 8000
+description: >-
+  Defguard is an all-in-one VPN and enterprise SSO/2FA platform.
+  
+  Key features:
+  - WireGuard VPN management
+  - Single Sign-On (SSO)
+  - Two-factor authentication
+  - User management
+  - Device enrollment
+  - Network access control
+  - Self-hosted
+
+developer: Defguard
+website: https://defguard.net
+submitter: Rafael Torreson
+submission: https://github.com/DefGuard/defguard
+repo: https://github.com/DefGuard/defguard
+support: https://github.com/DefGuard/defguard/issues
+gallery:
+  - https://defguard.net/images/screenshot-dashboard.png
+  - https://defguard.net/images/screenshot-vpn.png
+releaseNotes: Initial release of Defguard for Umbrel Community App Store.
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"
+

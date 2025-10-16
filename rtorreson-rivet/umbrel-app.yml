@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: rtorreson-rivet
+name: Rivet
+tagline: Visual programming environment for AI agents and workflows
+icon: https://raw.githubusercontent.com/Ironclad/rivet/main/packages/app/assets/icon.png
+category: Development
+version: "1.0.0"
+port: 8000
+description: >-
+  Rivet is an IDE for creating complex AI agents and prompt chaining.
+  
+  Key features:
+  - Visual node-based programming
+  - Design and test AI workflows
+  - LLM chain and prompt engineering
+  - Integrates with OpenAI, Anthropic, etc.
+  - Debug and monitor AI agents
+  - Export to code
+
+developer: Ironclad
+website: https://rivet.ironcladapp.com
+submitter: Rafael Torreson
+submission: https://github.com/Ironclad/rivet
+repo: https://github.com/Ironclad/rivet
+support: https://github.com/Ironclad/rivet/issues
+gallery:
+  - https://rivet.ironcladapp.com/img/screenshot-editor.png
+releaseNotes: Initial release of Rivet for Umbrel Community App Store.
+dependencies: []
+path: ""
+

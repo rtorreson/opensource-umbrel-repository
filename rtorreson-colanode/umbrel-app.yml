@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: rtorreson-colanode
+name: Colanode
+tagline: Self-hosted collaborative note-taking platform
+icon: https://raw.githubusercontent.com/colanode/colanode/main/public/logo.png
+category: Productivity
+version: "1.0.0"
+port: 3000
+description: >-
+  Colanode is a modern note-taking and knowledge management platform.
+  
+  Key features:
+  - Real-time collaborative editing
+  - Markdown support
+  - Organize notes in workspaces
+  - Rich text editor
+  - Search and tagging
+  - Mobile responsive
+  - Self-hosted and private
+
+developer: Colanode Team
+website: https://colanode.com
+submitter: Rafael Torreson
+submission: https://github.com/colanode/colanode
+repo: https://github.com/colanode/colanode
+support: https://github.com/colanode/colanode/issues
+gallery:
+  - https://colanode.com/images/screenshot-editor.png
+releaseNotes: Initial release of Colanode for Umbrel Community App Store.
+dependencies: []
+path: ""
+

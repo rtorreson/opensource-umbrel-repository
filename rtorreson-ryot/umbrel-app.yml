@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: rtorreson-ryot
+name: Ryot
+tagline: Self-hosted tracker for media and fitness
+icon: https://raw.githubusercontent.com/IgnisDa/ryot/main/apps/frontend/public/icon-512x512.png
+category: Media & Entertainment
+version: "1.0.0"
+port: 8000
+description: >-
+  Ryot is a self-hosted tracker for all your media consumption and fitness.
+  
+  Key features:
+  - Track movies, TV shows, books, podcasts
+  - Video game and workout tracking
+  - Import from Goodreads, Trakt, etc.
+  - Statistics and insights
+  - Calendar and reminders
+  - Privacy-focused
+  - Self-hosted
+
+developer: Ignisdae
+website: https://ryot.io
+submitter: Rafael Torreson
+submission: https://github.com/IgnisDa/ryot
+repo: https://github.com/IgnisDa/ryot
+support: https://github.com/IgnisDa/ryot/issues
+gallery:
+  - https://ryot.io/images/screenshot-dashboard.png
+  - https://ryot.io/images/screenshot-media.png
+releaseNotes: Initial release of Ryot for Umbrel Community App Store.
+dependencies: []
+path: ""
+

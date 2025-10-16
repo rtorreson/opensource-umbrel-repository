@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: rtorreson-parlant
+name: Parlant
+tagline: Framework for building AI conversation agents
+icon: https://raw.githubusercontent.com/emcie-co/parlant/main/docs/static/img/logo.png
+category: AI & ML
+version: "1.0.0"
+port: 8000
+description: >-
+  Parlant is an open source framework for building conversational AI agents.
+  
+  Key features:
+  - Build conversational AI agents
+  - Natural language understanding
+  - Context management
+  - Multi-turn conversations
+  - Integration with LLMs
+  - Extensible architecture
+  - Self-hosted
+
+developer: Emcie
+website: https://parlant.io
+submitter: Rafael Torreson
+submission: https://github.com/emcie-co/parlant
+repo: https://github.com/emcie-co/parlant
+support: https://github.com/emcie-co/parlant/issues
+gallery:
+  - https://parlant.io/images/screenshot-conversation.png
+releaseNotes: Initial release of Parlant for Umbrel Community App Store.
+dependencies: []
+path: ""
+

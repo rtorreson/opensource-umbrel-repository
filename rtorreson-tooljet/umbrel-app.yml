@@ -1,21 +1,21 @@
 manifestVersion: 1
 id: rtorreson-tooljet
 name: ToolJet
-tagline: Plataforma low-code para construir ferramentas internas
-icon: https://tooljet.com/favicon.ico
+tagline: Low-code platform to build internal tools
+icon: https://raw.githubusercontent.com/ToolJet/ToolJet/main/frontend/assets/images/logo.svg
 category: Development
 version: "1.0.0"
 port: 3000
 description: >-
-  ToolJet é uma plataforma open source low-code para construir ferramentas internas rapidamente.
+  ToolJet is an open source low-code platform to build internal tools quickly.
   
-  Características principais:
-  - Builder visual drag-and-drop
-  - Conectores para 50+ fontes de dados
-  - Componentes UI pré-construídos
-  - Workflows e automações
+  Key features:
+  - Visual drag-and-drop builder
+  - Connectors for 50+ data sources
+  - Pre-built UI components
+  - Workflows and automations
   - Multi-player editing
-  - Deploy com um clique
+  - One-click deployment
 
 developer: ToolJet Team
 website: https://tooljet.com
@@ -26,7 +26,7 @@ support: https://github.com/ToolJet/ToolJet/issues
 gallery:
   - https://tooljet.com/images/screenshot-builder.png
   - https://tooljet.com/images/screenshot-dashboard.png
-releaseNotes: Versão inicial do ToolJet para Umbrel Community App Store.
+releaseNotes: Initial release of ToolJet for Umbrel Community App Store.
 dependencies: []
 path: ""
 defaultUsername: "admin@tooljet.com"

@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: rtorreson-wakapi
+name: Wakapi
+tagline: Open source time tracking for developers
+icon: https://raw.githubusercontent.com/muety/wakapi/master/static/assets/images/logo.svg
+category: Development
+version: "1.0.0"
+port: 3000
+description: >-
+  Wakapi is an open source tool that helps you keep track of the time you have spent coding.
+  
+  Key features:
+  - Tracks coding time automatically via IDE plugins
+  - Supports all major editors (VS Code, IntelliJ, Vim, etc.)
+  - Beautiful dashboards and statistics
+  - Compatible with WakaTime
+  - Lightweight and self-hosted
+  - Privacy-focused
+
+developer: Ferdinand Mütsch
+website: https://wakapi.dev
+submitter: Rafael Torreson
+submission: https://github.com/muety/wakapi
+repo: https://github.com/muety/wakapi
+support: https://github.com/muety/wakapi/issues
+gallery:
+  - https://wakapi.dev/assets/screenshot1.png
+  - https://wakapi.dev/assets/screenshot2.png
+releaseNotes: Initial release of Wakapi for Umbrel Community App Store.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+

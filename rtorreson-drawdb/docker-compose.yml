@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-drawdb_drawdb_1
+      APP_PORT: 3000
+    
+  drawdb:
+    image: ghcr.io/drawdb-io/drawdb:latest
+    restart: unless-stopped
+

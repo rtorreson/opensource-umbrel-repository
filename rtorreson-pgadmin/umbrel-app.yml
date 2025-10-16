@@ -1,22 +1,22 @@
 manifestVersion: 1
 id: rtorreson-pgadmin
 name: pgAdmin
-tagline: Ferramenta de administração e desenvolvimento para PostgreSQL
+tagline: Administration and development tool for PostgreSQL
 icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdeveloper.asustor.com%2FuploadIcons%2F0020_96009_1552971827_pgadmin-icon.png&f=1&nofb=1&ipt=a249d35be09e7544e73006a4ec364bdd0208bc884bc96b1bfeed0d8af2dd180f
 category: Development
 version: "1.0.0"
 port: 8090
 description: >-
-  pgAdmin é a ferramenta de administração mais popular e rica em recursos para PostgreSQL.
+  pgAdmin is the most popular and feature-rich administration tool for PostgreSQL.
   
-  Características principais:
-  - Interface web moderna e responsiva
-  - Gerenciamento completo de bancos de dados PostgreSQL
-  - Editor SQL avançado com syntax highlighting
-  - Visualização de dados e estatísticas
-  - Backup e restore de bancos de dados
-  - Gerenciamento de usuários e permissões
-  - Monitoramento de performance
+  Key features:
+  - Modern and responsive web interface
+  - Complete PostgreSQL database management
+  - Advanced SQL editor with syntax highlighting
+  - Data visualization and statistics
+  - Database backup and restore
+  - User and permission management
+  - Performance monitoring
 
 developer: pgAdmin Development Team
 website: https://www.pgadmin.org
@@ -41,8 +41,8 @@ gallery:
   - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-preferences.png
   - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-search.png
 releaseNotes: >-
-  Versão inicial do pgAdmin para Umbrel Community App Store.
-  Inclui configuração otimizada para ambiente Umbrel com credenciais padrão.
+  Initial release of pgAdmin for Umbrel Community App Store.
+  Includes optimized configuration for Umbrel environment with default credentials.
 dependencies: []
 path: ""
 defaultUsername: "admin@pgadmin.org"

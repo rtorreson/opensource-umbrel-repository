@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: rtorreson-strapi
+name: Strapi
+tagline: Open source headless CMS for modern applications
+icon: https://raw.githubusercontent.com/strapi/strapi/master/public/assets/logo.png
+category: Business
+version: "1.0.0"
+port: 1337
+description: >-
+  Strapi is the leading open source headless CMS built with Node.js.
+  
+  Key features:
+  - Customizable content types
+  - RESTful and GraphQL APIs
+  - Media library
+  - Role-based access control
+  - Plugin system
+  - Admin panel
+  - Multi-database support
+
+developer: Strapi Solutions SAS
+website: https://strapi.io
+submitter: Rafael Torreson
+submission: https://github.com/strapi/strapi
+repo: https://github.com/strapi/strapi
+support: https://github.com/strapi/strapi/issues
+gallery:
+  - https://strapi.io/assets/images/screenshot-content-manager.png
+  - https://strapi.io/assets/images/screenshot-content-builder.png
+releaseNotes: Initial release of Strapi for Umbrel Community App Store.
+dependencies: []
+path: ""
+defaultUsername: "admin@strapi.io"
+defaultPassword: "Admin123"
+

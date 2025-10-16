@@ -1,21 +1,21 @@
 manifestVersion: 1
 id: rtorreson-hatchet
 name: Hatchet
-tagline: Plataforma de workflows e tarefas assíncronas
+tagline: Workflow and asynchronous task platform
 icon: https://hatchet.run/favicon.ico
 category: Development
 version: "1.0.0"
 port: 8080
 description: >-
-  Hatchet é uma plataforma para executar workflows e tarefas assíncronas de forma confiável.
+  Hatchet is a platform for reliably executing workflows and asynchronous tasks.
   
-  Características principais:
-  - Execução de workflows distribuídos
-  - Tarefas assíncronas com retry
-  - Monitoramento em tempo real
-  - SDK para múltiplas linguagens
-  - Dashboard de gestão
-  - Escalabilidade horizontal
+  Key features:
+  - Distributed workflow execution
+  - Asynchronous tasks with retry
+  - Real-time monitoring
+  - SDK for multiple languages
+  - Management dashboard
+  - Horizontal scalability
 
 developer: Hatchet Team
 website: https://hatchet.run
@@ -25,6 +25,6 @@ repo: https://github.com/hatchet-run/hatchet
 support: https://github.com/hatchet-run/hatchet/issues
 gallery:
   - https://hatchet.run/images/screenshot-dashboard.png
-releaseNotes: Versão inicial do Hatchet para Umbrel Community App Store.
+releaseNotes: Initial release of Hatchet for Umbrel Community App Store.
 dependencies: []
 path: ""

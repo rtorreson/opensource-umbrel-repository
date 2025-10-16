@@ -1,21 +1,21 @@
 manifestVersion: 1
 id: rtorreson-kaneo
 name: Kaneo
-tagline: Plataforma de product analytics auto-hospedada
-icon: https://kaneo.com/favicon.ico
+tagline: Self-hosted product analytics platform
+icon: https://avatars.githubusercontent.com/u/148814444?s=200&v=4
 category: Analytics
 version: "1.0.0"
 port: 3000
 description: >-
-  Kaneo é uma plataforma de product analytics open source e auto-hospedada.
+  Kaneo is a self-hosted open source product analytics platform.
   
-  Características principais:
-  - Tracking de eventos de usuário
-  - Funnels e conversão
-  - Retenção de usuários
-  - Segmentação avançada
-  - Dashboard customizáveis
-  - API para integração
+  Key features:
+  - User event tracking
+  - Funnels and conversion
+  - User retention
+  - Advanced segmentation
+  - Customizable dashboards
+  - API for integration
 
 developer: Kaneo Team
 website: https://kaneo.com
@@ -26,7 +26,7 @@ support: https://github.com/kaneohq/kaneo/issues
 gallery:
   - https://kaneo.com/images/screenshot-dashboard.png
   - https://kaneo.com/images/screenshot-funnels.png
-releaseNotes: Versão inicial do Kaneo para Umbrel Community App Store.
+releaseNotes: Initial release of Kaneo for Umbrel Community App Store.
 dependencies: []
 path: ""
 defaultUsername: "admin@kaneo.com"

@@ -1,21 +1,21 @@
 manifestVersion: 1
 id: rtorreson-signoz
 name: SigNoz
-tagline: Plataforma de observabilidade e APM open source
-icon: https://signoz.io/images/logo.png
+tagline: Open source observability and APM platform
+icon: https://raw.githubusercontent.com/SigNoz/signoz/develop/frontend/public/signoz-logo.svg
 category: Monitoring
 version: "1.0.0"
 port: 3301
 description: >-
-  SigNoz é uma plataforma de observabilidade open source alternativa ao Datadog.
+  SigNoz is an open source observability platform alternative to Datadog.
   
-  Características principais:
-  - Rastreamento distribuído
-  - Métricas de performance
-  - Logs centralizados
-  - Dashboard personalizáveis
-  - Alertas inteligentes
-  - Compatível com OpenTelemetry
+  Key features:
+  - Distributed tracing
+  - Performance metrics
+  - Centralized logs
+  - Customizable dashboards
+  - Smart alerts
+  - OpenTelemetry compatible
 
 developer: SigNoz Team
 website: https://signoz.io
@@ -27,6 +27,6 @@ gallery:
   - https://signoz.io/images/screenshot-traces.png
   - https://signoz.io/images/screenshot-metrics.png
   - https://signoz.io/images/screenshot-logs.png
-releaseNotes: Versão inicial do SigNoz para Umbrel Community App Store.
+releaseNotes: Initial release of SigNoz for Umbrel Community App Store.
 dependencies: []
 path: ""

@@ -1,0 +1,36 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-swetrix_swetrix_1
+      APP_PORT: 3000
+    
+  swetrix:
+    image: swetrix/swetrix:latest
+    environment:
+      DATABASE_URL: postgres://swetrix:swetrix@postgres:5432/swetrix
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: change-this-jwt-secret
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: swetrix
+      POSTGRES_USER: swetrix
+      POSTGRES_PASSWORD: swetrix
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+

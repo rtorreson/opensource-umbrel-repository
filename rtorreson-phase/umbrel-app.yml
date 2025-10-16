@@ -1,21 +1,21 @@
 manifestVersion: 1
 id: rtorreson-phase
 name: Phase
-tagline: Sistema de feature flags e configurações dinâmicas
+tagline: Feature flags and dynamic configuration system
 icon: https://phase.dev/favicon.ico
 category: Development
 version: "1.0.0"
 port: 3000
 description: >-
-  Phase é uma plataforma de feature flags e gerenciamento de configurações para desenvolvedores.
+  Phase is a feature flag and configuration management platform for developers.
   
-  Características principais:
-  - Feature flags com targeting
-  - Configurações dinâmicas
-  - Experimentos A/B
-  - SDKs para múltiplas linguagens
-  - Auditoria e histórico
-  - Integração com CI/CD
+  Key features:
+  - Feature flags with targeting
+  - Dynamic configurations
+  - A/B experiments
+  - SDKs for multiple languages
+  - Audit and history
+  - CI/CD integration
 
 developer: Phase Team
 website: https://phase.dev
@@ -26,7 +26,7 @@ support: https://github.com/phasehq/phase/issues
 gallery:
   - https://phase.dev/images/screenshot-dashboard.png
   - https://phase.dev/images/screenshot-flags.png
-releaseNotes: Versão inicial do Phase para Umbrel Community App Store.
+releaseNotes: Initial release of Phase for Umbrel Community App Store.
 dependencies: []
 path: ""
 defaultUsername: "admin@phase.dev"

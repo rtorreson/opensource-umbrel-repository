@@ -1,23 +1,23 @@
 manifestVersion: 1
 id: rtorreson-outline
 name: Outline
-tagline: Plataforma de documentação colaborativa moderna
+tagline: Modern collaborative documentation platform
 icon: https://avatars.githubusercontent.com/u/1765001?s=48&v=4
 category: Productivity
 version: "1.0.0"
 port: 3000
 description: >-
-  Outline é uma plataforma de documentação colaborativa moderna e poderosa.
+  Outline is a modern and powerful collaborative documentation platform.
   
-  Características principais:
-  - Editor rico em recursos com suporte a Markdown
-  - Colaboração em tempo real
-  - Organização por coleções e documentos
-  - Interface moderna e intuitiva
-  - Busca avançada
-  - Histórico de versões
-  - Comentários e discussões
-  - Integração com ferramentas externas
+  Key features:
+  - Feature-rich editor with Markdown support
+  - Real-time collaboration
+  - Organization by collections and documents
+  - Modern and intuitive interface
+  - Advanced search
+  - Version history
+  - Comments and discussions
+  - External tool integrations
 
 developer: Outline Team
 website: https://www.getoutline.com
@@ -33,9 +33,9 @@ gallery:
   - https://www.getoutline.com/images/slack-outline-search.png
   - https://www.getoutline.com/images/self-hosted-domain.png
 releaseNotes: >-
-  Versão inicial do Outline para Umbrel Community App Store.
-  Inclui configuração completa com PostgreSQL e Redis.
-  Configuração otimizada para ambiente Umbrel.
+  Initial release of Outline for Umbrel Community App Store.
+  Includes complete configuration with PostgreSQL and Redis.
+  Optimized configuration for Umbrel environment.
 dependencies: []
 path: ""
 defaultUsername: ""

@@ -1,0 +1,32 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-ryot_ryot_1
+      APP_PORT: 8000
+    
+  ryot:
+    image: ghcr.io/ignisda/ryot:latest
+    environment:
+      DATABASE_URL: postgres://ryot:ryot@postgres:5432/ryot
+    volumes:
+      - ryot_data:/data
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: ryot
+      POSTGRES_USER: ryot
+      POSTGRES_PASSWORD: ryot
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  ryot_data:
+  postgres_data:
+

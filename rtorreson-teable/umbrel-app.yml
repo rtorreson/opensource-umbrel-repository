@@ -1,21 +1,21 @@
 manifestVersion: 1
 id: rtorreson-teable
 name: Teable
-tagline: Database moderno com interface de spreadsheet em tempo real
-icon: https://teable.io/favicon.ico
+tagline: Modern database with real-time spreadsheet interface
+icon: https://raw.githubusercontent.com/teableio/teable/main/apps/nextjs-app/public/logo.png
 category: Development
 version: "1.0.0"
 port: 3000
 description: >-
-  Teable é um database moderno com interface de spreadsheet e colaboração em tempo real.
+  Teable is a modern database with spreadsheet interface and real-time collaboration.
   
-  Características principais:
-  - Interface tipo Airtable
-  - Colaboração em tempo real
-  - API REST e GraphQL
-  - Views múltiplas (Grid, Calendar, Kanban)
-  - Fórmulas e automações
-  - Permissões granulares
+  Key features:
+  - Airtable-like interface
+  - Real-time collaboration
+  - REST and GraphQL API
+  - Multiple views (Grid, Calendar, Kanban)
+  - Formulas and automations
+  - Granular permissions
 
 developer: Teable Team
 website: https://teable.io
@@ -26,7 +26,7 @@ support: https://github.com/teableio/teable/issues
 gallery:
   - https://teable.io/images/screenshot-grid.png
   - https://teable.io/images/screenshot-calendar.png
-releaseNotes: Versão inicial do Teable para Umbrel Community App Store.
+releaseNotes: Initial release of Teable for Umbrel Community App Store.
 dependencies: []
 path: ""
 defaultUsername: "admin@teable.io"

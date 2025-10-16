@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: rtorreson-airbyte
+name: Airbyte
+tagline: Open source data integration and ETL platform
+icon: https://raw.githubusercontent.com/airbytehq/airbyte/master/docs/.gitbook/assets/logos/airbyte-logo.svg
+category: Integration
+version: "1.0.0"
+port: 8000
+description: >-
+  Airbyte is an open source data integration platform for modern data teams.
+  
+  Key features:
+  - 350+ pre-built connectors
+  - Sync data from APIs, databases, files
+  - Custom connector builder
+  - Schedule and orchestrate syncs
+  - Data transformation with dbt
+  - Monitoring and alerting
+  - Self-hosted
+
+developer: Airbyte
+website: https://airbyte.com
+submitter: Rafael Torreson
+submission: https://github.com/airbytehq/airbyte
+repo: https://github.com/airbytehq/airbyte
+support: https://github.com/airbytehq/airbyte/issues
+gallery:
+  - https://airbyte.com/images/screenshot-connections.png
+  - https://airbyte.com/images/screenshot-connectors.png
+releaseNotes: Initial release of Airbyte for Umbrel Community App Store.
+dependencies: []
+path: ""
+

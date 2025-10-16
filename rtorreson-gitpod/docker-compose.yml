@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-gitpod_gitpod_1
+      APP_PORT: 3000
+    
+  gitpod:
+    image: gitpod/openvscode-server:latest
+    environment:
+      GITPOD_HOST: http://localhost:3000
+    volumes:
+      - gitpod_data:/home/workspace
+    restart: unless-stopped
+
+volumes:
+  gitpod_data:
+

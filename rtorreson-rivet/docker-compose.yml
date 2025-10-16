@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-rivet_rivet_1
+      APP_PORT: 8000
+    
+  rivet:
+    image: ghcr.io/ironclad/rivet:latest
+    volumes:
+      - rivet_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  rivet_data:
+

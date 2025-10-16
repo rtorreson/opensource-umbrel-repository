@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-tdengine_tdengine_1
+      APP_PORT: 6041
+    
+  tdengine:
+    image: tdengine/tdengine:latest
+    environment:
+      TZ: UTC
+    volumes:
+      - tdengine_data:/var/lib/taos
+      - tdengine_log:/var/log/taos
+    restart: unless-stopped
+
+volumes:
+  tdengine_data:
+  tdengine_log:
+
