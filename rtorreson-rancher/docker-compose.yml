@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-rancher_rancher_1
+      APP_PORT: 80
+    
+  rancher:
+    image: rancher/rancher:latest
+    environment:
+      CATTLE_SYSTEM_DEFAULT_REGISTRY: rancher
+      CATTLE_BOOTSTRAP_PASSWORD: admin123
+    volumes:
+      - rancher_data:/var/lib/rancher
+    restart: unless-stopped
+    privileged: true
+
+volumes:
+  rancher_data:

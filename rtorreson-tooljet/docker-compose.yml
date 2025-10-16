@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-tooljet_tooljet_1
+      APP_PORT: 3000
+    
+  tooljet:
+    image: tooljet/tooljet:latest
+    environment:
+      DATABASE_URL: postgres://tooljet:tooljet@postgres:5432/tooljet
+      SECRET_KEY_BASE: your-secret-key-base-change-this
+      LOCKBOX_MASTER_KEY: your-lockbox-key-change-this
+    volumes:
+      - tooljet_data:/app/data
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: tooljet
+      POSTGRES_USER: tooljet
+      POSTGRES_PASSWORD: tooljet
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  tooljet_data:
+  postgres_data:

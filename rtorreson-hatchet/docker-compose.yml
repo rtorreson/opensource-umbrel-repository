@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-hatchet_hatchet_1
+      APP_PORT: 8080
+    
+  hatchet:
+    image: hatchet/hatchet:latest
+    environment:
+      DATABASE_URL: postgres://hatchet:hatchet@postgres:5432/hatchet
+      HATCHET_CLIENT_URL: http://localhost:8080
+      HATCHET_SERVER_URL: http://localhost:8080
+    volumes:
+      - hatchet_data:/app/data
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: hatchet
+      POSTGRES_USER: hatchet
+      POSTGRES_PASSWORD: hatchet
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  hatchet_data:
+  postgres_data:

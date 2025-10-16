@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-teable_teable_1
+      APP_PORT: 3000
+    
+  teable:
+    image: teableio/teable:latest
+    environment:
+      DATABASE_URL: postgres://teable:teable@postgres:5432/teable
+      NEXTAUTH_SECRET: your-secret-key-change-this
+      NEXTAUTH_URL: http://localhost:3000
+    volumes:
+      - teable_data:/app/data
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: teable
+      POSTGRES_USER: teable
+      POSTGRES_PASSWORD: teable
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  teable_data:
+  postgres_data:

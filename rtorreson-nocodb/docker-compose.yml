@@ -1,0 +1,32 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-nocodb_nocodb_1
+      APP_PORT: 8080
+    
+  nocodb:
+    image: nocodb/nocodb:latest
+    environment:
+      NC_DB: pg://postgres:5432?u=nocodb&p=nocodb&d=nocodb
+      NC_AUTH_JWT_SECRET: your-jwt-secret-change-this
+    volumes:
+      - nocodb_data:/usr/app/data
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: nocodb
+      POSTGRES_USER: nocodb
+      POSTGRES_PASSWORD: nocodb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  nocodb_data:
+  postgres_data:

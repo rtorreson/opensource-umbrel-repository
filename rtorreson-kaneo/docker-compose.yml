@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-kaneo_kaneo_1
+      APP_PORT: 3000
+    
+  kaneo:
+    image: kaneohq/kaneo:latest
+    environment:
+      DATABASE_URL: postgres://kaneo:kaneo@postgres:5432/kaneo
+      NEXTAUTH_SECRET: your-secret-key-change-this
+      NEXTAUTH_URL: http://localhost:3000
+    volumes:
+      - kaneo_data:/app/data
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: kaneo
+      POSTGRES_USER: kaneo
+      POSTGRES_PASSWORD: kaneo
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  kaneo_data:
+  postgres_data:

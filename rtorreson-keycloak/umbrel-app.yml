@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: rtorreson-keycloak
+name: Keycloak
+tagline: Solução de identidade e acesso open source
+icon: https://www.keycloak.org/resources/images/logo.svg
+category: Security
+version: "1.0.0"
+port: 8080
+description: >-
+  Keycloak é uma solução de gerenciamento de identidade e acesso open source.
+  
+  Características principais:
+  - Single Sign-On (SSO)
+  - Autenticação social (Google, GitHub, etc.)
+  - Gerenciamento de usuários
+  - Autorização baseada em roles
+  - Protocolos OAuth2, OpenID Connect, SAML
+  - Console de administração completo
+
+developer: Keycloak Team
+website: https://www.keycloak.org
+submitter: Rafael Torreson
+submission: https://github.com/keycloak/keycloak
+repo: https://github.com/keycloak/keycloak
+support: https://github.com/keycloak/keycloak/issues
+gallery:
+  - https://www.keycloak.org/resources/images/screenshot-admin-console.png
+releaseNotes: Versão inicial do Keycloak para Umbrel Community App Store.
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"

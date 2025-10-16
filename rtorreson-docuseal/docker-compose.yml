@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-docuseal_docuseal_1
+      APP_PORT: 3000
+    
+  docuseal:
+    image: docuseal/docuseal:latest
+    environment:
+      DATABASE_URL: postgres://docuseal:docuseal@postgres:5432/docuseal
+      SECRET_KEY_BASE: your-secret-key-base-change-this
+      HOST: localhost
+    volumes:
+      - docuseal_data:/app/data
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: docuseal
+      POSTGRES_USER: docuseal
+      POSTGRES_PASSWORD: docuseal
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  docuseal_data:
+  postgres_data:

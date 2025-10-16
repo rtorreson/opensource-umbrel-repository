@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: rtorreson-dokploy
+name: Dokploy
+tagline: Plataforma de deploy simplificado para aplicações Docker
+icon: https://dokploy.com/favicon.ico
+category: Development
+version: "1.0.0"
+port: 3000
+description: >-
+  Dokploy é uma plataforma simplificada para deploy de aplicações Docker.
+  
+  Características principais:
+  - Deploy de aplicações com um clique
+  - Gestão de containers Docker
+  - SSL automático com Let's Encrypt
+  - Deploy a partir de repositórios Git
+  - Monitoramento de recursos
+  - Backup e restore
+
+developer: Dokploy Team
+website: https://dokploy.com
+submitter: Rafael Torreson
+submission: https://github.com/Dokploy/dokploy
+repo: https://github.com/Dokploy/dokploy
+support: https://github.com/Dokploy/dokploy/issues
+gallery:
+  - https://dokploy.com/images/screenshot-dashboard.png
+  - https://dokploy.com/images/screenshot-deploy.png
+releaseNotes: Versão inicial do Dokploy para Umbrel Community App Store.
+dependencies: []
+path: ""
+defaultUsername: "admin@dokploy.com"
+defaultPassword: "admin123"

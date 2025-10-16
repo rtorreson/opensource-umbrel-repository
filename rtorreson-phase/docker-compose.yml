@@ -1,0 +1,41 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-phase_phase_1
+      APP_PORT: 3000
+    
+  phase:
+    image: phasehq/phase:latest
+    environment:
+      DATABASE_URL: postgres://phase:phase@postgres:5432/phase
+      SECRET_KEY_BASE: your-secret-key-base-change-this
+      ENCRYPTION_KEY: your-encryption-key-change-this
+    volumes:
+      - phase_data:/app/data
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: phase
+      POSTGRES_USER: phase
+      POSTGRES_PASSWORD: phase
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+volumes:
+  phase_data:
+  postgres_data:
+  redis_data:

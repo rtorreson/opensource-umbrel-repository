@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: rtorreson-docuseal
+name: DocuSeal
+tagline: Plataforma open source para criar e assinar documentos
+icon: https://docuseal.co/favicon.ico
+category: Productivity
+version: "1.0.0"
+port: 3000
+description: >-
+  DocuSeal é uma plataforma open source para criar, gerenciar e assinar documentos.
+  
+  Características principais:
+  - Criação de templates de documentos
+  - Coleta de assinaturas eletrônicas
+  - Campos de formulário customizáveis
+  - Fluxos de trabalho de aprovação
+  - API para integrações
+  - Relatórios de atividade
+
+developer: DocuSeal Team
+website: https://docuseal.co
+submitter: Rafael Torreson
+submission: https://github.com/docusealco/docuseal
+repo: https://github.com/docusealco/docuseal
+support: https://github.com/docusealco/docuseal/issues
+gallery:
+  - https://docuseal.co/images/screenshot-builder.png
+  - https://docuseal.co/images/screenshot-dashboard.png
+releaseNotes: Versão inicial do DocuSeal para Umbrel Community App Store.
+dependencies: []
+path: ""

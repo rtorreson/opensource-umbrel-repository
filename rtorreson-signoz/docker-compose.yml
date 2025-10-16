@@ -1,0 +1,35 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-signoz_frontend_1
+      APP_PORT: 3301
+    
+  frontend:
+    image: signoz/frontend:0.28.0
+    environment:
+      REACT_APP_BASE_URL: http://localhost:3301
+    volumes:
+      - signoz_frontend_data:/app/data
+    depends_on:
+      - query-service
+    restart: unless-stopped
+
+  query-service:
+    image: signoz/query-service:0.28.0
+    environment:
+      ClickHouseUrl: tcp://clickhouse:9000
+    depends_on:
+      - clickhouse
+    restart: unless-stopped
+
+  clickhouse:
+    image: signoz/clickhouse:0.28.0
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+    restart: unless-stopped
+
+volumes:
+  signoz_frontend_data:
+  clickhouse_data:

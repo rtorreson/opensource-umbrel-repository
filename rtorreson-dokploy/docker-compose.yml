@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: opensource-dokploy_dokploy_1
+      APP_PORT: 3000
+    
+  dokploy:
+    image: dokploy/dokploy:latest
+    environment:
+      DATABASE_URL: postgres://dokploy:dokploy@postgres:5432/dokploy
+      ENCRYPTION_KEY: your-encryption-key-change-this
+    volumes:
+      - dokploy_data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: dokploy
+      POSTGRES_USER: dokploy
+      POSTGRES_PASSWORD: dokploy
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  dokploy_data:
+  postgres_data:
