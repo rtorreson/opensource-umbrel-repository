@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-polar
 name: Polar
 tagline: Monetization platform for open source maintainers
-icon: https://raw.githubusercontent.com/polarsource/polar/main/clients/apps/web/public/favicon.ico
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=PO
 category: Finance
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Polar is a funding and monetization platform for open source maintainers.
-  
-  Key features:
-  - Accept sponsorships
-  - Issue funding and rewards
-  - Subscription management
-  - Payment processing
-  - GitHub integration
-  - Transparent funding
-  - Self-hosted
-
+  Key features: - Accept sponsorships - Issue funding and rewards - Subscription management - Payment processing - GitHub integration - Transparent funding - Self-hosted
 developer: Polar Source
 website: https://polar.sh
 submitter: Rafael Torreson
@@ -25,9 +16,8 @@ submission: https://github.com/polarsource/polar
 repo: https://github.com/polarsource/polar
 support: https://github.com/polarsource/polar/issues
 gallery:
-  - https://polar.sh/images/screenshot-dashboard.png
-  - https://polar.sh/images/screenshot-funding.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Polar+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Polar+Screenshot+2
 releaseNotes: Initial release of Polar for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''

@@ -2,21 +2,13 @@ manifestVersion: 1
 id: rtorreson-tooljet
 name: ToolJet
 tagline: Low-code platform to build internal tools
-icon: https://raw.githubusercontent.com/ToolJet/ToolJet/main/frontend/assets/images/logo.svg
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=TO
 category: Development
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   ToolJet is an open source low-code platform to build internal tools quickly.
-  
-  Key features:
-  - Visual drag-and-drop builder
-  - Connectors for 50+ data sources
-  - Pre-built UI components
-  - Workflows and automations
-  - Multi-player editing
-  - One-click deployment
-
+  Key features: - Visual drag-and-drop builder - Connectors for 50+ data sources - Pre-built UI components - Workflows and automations - Multi-player editing - One-click deployment
 developer: ToolJet Team
 website: https://tooljet.com
 submitter: Rafael Torreson
@@ -24,10 +16,10 @@ submission: https://github.com/ToolJet/ToolJet
 repo: https://github.com/ToolJet/ToolJet
 support: https://github.com/ToolJet/ToolJet/issues
 gallery:
-  - https://tooljet.com/images/screenshot-builder.png
-  - https://tooljet.com/images/screenshot-dashboard.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=ToolJet+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=ToolJet+Screenshot+2
 releaseNotes: Initial release of ToolJet for Umbrel Community App Store.
 dependencies: []
-path: ""
-defaultUsername: "admin@tooljet.com"
-defaultPassword: "password"
+path: ''
+defaultUsername: admin@tooljet.com
+defaultPassword: password

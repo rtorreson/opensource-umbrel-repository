@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-polotno
 name: Polotno Studio
 tagline: Free online graphic design editor
-icon: https://raw.githubusercontent.com/polotno-project/polotno-studio/master/public/icon-512.png
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=PO
 category: Design
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Polotno Studio is a free and open source design editor similar to Canva.
-  
-  Key features:
-  - Drag-and-drop design interface
-  - Templates and elements
-  - Text and image editing
-  - Export to PNG, JPG, PDF
-  - Custom fonts and shapes
-  - Layer management
-  - Self-hosted alternative to Canva
-
+  Key features: - Drag-and-drop design interface - Templates and elements - Text and image editing - Export to PNG, JPG, PDF - Custom fonts and shapes - Layer management - Self-hosted alternative to Canva
 developer: Polotno Project
 website: https://studio.polotno.com
 submitter: Rafael Torreson
@@ -25,8 +16,8 @@ submission: https://github.com/polotno-project/polotno-studio
 repo: https://github.com/polotno-project/polotno-studio
 support: https://github.com/polotno-project/polotno-studio/issues
 gallery:
-  - https://studio.polotno.com/images/screenshot-editor.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Polotno%20Studio+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Polotno%20Studio+Screenshot+2
 releaseNotes: Initial release of Polotno Studio for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''

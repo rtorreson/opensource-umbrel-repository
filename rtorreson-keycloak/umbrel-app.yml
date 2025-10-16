@@ -4,19 +4,11 @@ name: Keycloak
 tagline: Open source identity and access management solution
 icon: https://www.keycloak.org/resources/images/logo.svg
 category: Security
-version: "1.0.0"
+version: 1.0.0
 port: 8080
-description: >-
+description: |-
   Keycloak is an open source identity and access management solution.
-  
-  Key features:
-  - Single Sign-On (SSO)
-  - Social authentication (Google, GitHub, etc.)
-  - User management
-  - Role-based authorization
-  - OAuth2, OpenID Connect, SAML protocols
-  - Complete administration console
-
+  Key features: - Single Sign-On (SSO) - Social authentication (Google, GitHub, etc.) - User management - Role-based authorization - OAuth2, OpenID Connect, SAML protocols - Complete administration console
 developer: Keycloak Team
 website: https://www.keycloak.org
 submitter: Rafael Torreson
@@ -24,9 +16,9 @@ submission: https://github.com/keycloak/keycloak
 repo: https://github.com/keycloak/keycloak
 support: https://github.com/keycloak/keycloak/issues
 gallery:
-  - https://www.keycloak.org/resources/images/screenshot-admin-console.png
+  - https://www.keycloak.org/resources/images/screen-login.png
 releaseNotes: Initial release of Keycloak for Umbrel Community App Store.
 dependencies: []
-path: ""
-defaultUsername: "admin"
-defaultPassword: "admin"
+path: ''
+defaultUsername: admin
+defaultPassword: admin

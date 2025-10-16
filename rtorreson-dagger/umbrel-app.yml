@@ -2,21 +2,13 @@ manifestVersion: 1
 id: rtorreson-dagger
 name: Dagger
 tagline: Programmable CI/CD engine that runs pipelines in containers
-icon: https://raw.githubusercontent.com/dagger/dagger/main/docs/static/img/dagger-logo.png
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DA
 category: Development
-version: "1.0.0"
+version: 1.0.0
 port: 8080
-description: >-
+description: |-
   Dagger is a programmable CI/CD engine that runs your pipelines in containers.
-  
-  Key features:
-  - Write CI/CD pipelines as code
-  - Run anywhere (local, CI, cloud)
-  - Language-agnostic (Go, Python, TypeScript)
-  - Container-native execution
-  - Caching and parallelization
-  - Portable and reproducible builds
-
+  Key features: - Write CI/CD pipelines as code - Run anywhere (local, CI, cloud) - Language-agnostic (Go, Python, TypeScript) - Container-native execution - Caching and parallelization - Portable and reproducible builds
 developer: Dagger
 website: https://dagger.io
 submitter: Rafael Torreson
@@ -24,8 +16,8 @@ submission: https://github.com/dagger/dagger
 repo: https://github.com/dagger/dagger
 support: https://github.com/dagger/dagger/issues
 gallery:
-  - https://dagger.io/images/screenshot-cli.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Dagger+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Dagger+Screenshot+2
 releaseNotes: Initial release of Dagger for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''

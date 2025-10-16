@@ -2,21 +2,13 @@ manifestVersion: 1
 id: rtorreson-dokploy
 name: Dokploy
 tagline: Simplified deployment platform for Docker applications
-icon: https://dokploy.com/favicon.ico
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DO
 category: Development
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Dokploy is a simplified platform for deploying Docker applications.
-  
-  Key features:
-  - One-click application deployment
-  - Docker container management
-  - Automatic SSL with Let's Encrypt
-  - Deploy from Git repositories
-  - Resource monitoring
-  - Backup and restore
-
+  Key features: - One-click application deployment - Docker container management - Automatic SSL with Let's Encrypt - Deploy from Git repositories - Resource monitoring - Backup and restore
 developer: Dokploy Team
 website: https://dokploy.com
 submitter: Rafael Torreson
@@ -24,10 +16,10 @@ submission: https://github.com/Dokploy/dokploy
 repo: https://github.com/Dokploy/dokploy
 support: https://github.com/Dokploy/dokploy/issues
 gallery:
-  - https://dokploy.com/images/screenshot-dashboard.png
-  - https://dokploy.com/images/screenshot-deploy.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Dokploy+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Dokploy+Screenshot+2
 releaseNotes: Initial release of Dokploy for Umbrel Community App Store.
 dependencies: []
-path: ""
-defaultUsername: "admin@dokploy.com"
-defaultPassword: "admin123"
+path: ''
+defaultUsername: admin@dokploy.com
+defaultPassword: admin123

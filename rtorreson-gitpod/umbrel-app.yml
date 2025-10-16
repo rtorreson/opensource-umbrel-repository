@@ -2,21 +2,13 @@ manifestVersion: 1
 id: rtorreson-gitpod
 name: Gitpod
 tagline: Cloud development environment for any project
-icon: https://raw.githubusercontent.com/gitpod-io/gitpod/main/components/dashboard/public/images/gitpod-logo.svg
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=GI
 category: Development
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Gitpod is an open source developer platform for remote development.
-  
-  Key features:
-  - Automated and ready-to-code dev environments
-  - Works with any Git repository
-  - Pre-configured with tools and dependencies
-  - Cloud-based IDE (VS Code, JetBrains)
-  - Integrates with GitHub, GitLab, Bitbucket
-  - Collaborative coding
-
+  Key features: - Automated and ready-to-code dev environments - Works with any Git repository - Pre-configured with tools and dependencies - Cloud-based IDE (VS Code, JetBrains) - Integrates with GitHub, GitLab, Bitbucket - Collaborative coding
 developer: Gitpod
 website: https://www.gitpod.io
 submitter: Rafael Torreson
@@ -24,8 +16,8 @@ submission: https://github.com/gitpod-io/gitpod
 repo: https://github.com/gitpod-io/gitpod
 support: https://github.com/gitpod-io/gitpod/issues
 gallery:
-  - https://www.gitpod.io/images/screenshot-workspace.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Gitpod+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Gitpod+Screenshot+2
 releaseNotes: Initial release of Gitpod for Umbrel Community App Store. Note - Gitpod self-hosted requires significant resources.
 dependencies: []
-path: ""
-
+path: ''

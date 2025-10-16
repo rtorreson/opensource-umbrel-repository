@@ -2,21 +2,13 @@ manifestVersion: 1
 id: rtorreson-rancher
 name: Rancher
 tagline: Complete Kubernetes management platform
-icon: https://rancher.com/favicon.ico
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=RA
 category: Development
-version: "1.0.0"
+version: 1.0.0
 port: 80
-description: >-
+description: |-
   Rancher is a complete Kubernetes cluster management platform.
-  
-  Key features:
-  - Multi-cluster Kubernetes management
-  - Application deployment with Helm
-  - Monitoring and logging
-  - Security and compliance policies
-  - Auto-scaling and load balancing
-  - Unified web interface
-
+  Key features: - Multi-cluster Kubernetes management - Application deployment with Helm - Monitoring and logging - Security and compliance policies - Auto-scaling and load balancing - Unified web interface
 developer: Rancher Labs
 website: https://rancher.com
 submitter: Rafael Torreson
@@ -24,10 +16,10 @@ submission: https://github.com/rancher/rancher
 repo: https://github.com/rancher/rancher
 support: https://github.com/rancher/rancher/issues
 gallery:
-  - https://rancher.com/images/screenshot-dashboard.png
-  - https://rancher.com/images/screenshot-clusters.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Rancher+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Rancher+Screenshot+2
 releaseNotes: Initial release of Rancher for Umbrel Community App Store.
 dependencies: []
-path: ""
-defaultUsername: "admin"
-defaultPassword: "admin123"
+path: ''
+defaultUsername: admin
+defaultPassword: admin123

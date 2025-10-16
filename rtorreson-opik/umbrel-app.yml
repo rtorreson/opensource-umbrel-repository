@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-opik
 name: Opik
 tagline: Open source platform for LLM evaluation and testing
-icon: https://raw.githubusercontent.com/comet-ml/opik/main/apps/opik-frontend/public/logo.png
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=OP
 category: AI & ML
-version: "1.0.0"
+version: 1.0.0
 port: 5173
-description: >-
+description: |-
   Opik is an open source platform for evaluating, testing and monitoring LLMs.
-  
-  Key features:
-  - LLM evaluation and testing
-  - Prompt management
-  - Performance monitoring
-  - A/B testing for prompts
-  - Integration with popular LLM providers
-  - Experiment tracking
-  - Self-hosted
-
+  Key features: - LLM evaluation and testing - Prompt management - Performance monitoring - A/B testing for prompts - Integration with popular LLM providers - Experiment tracking - Self-hosted
 developer: Comet ML
 website: https://www.comet.com/site/products/opik
 submitter: Rafael Torreson
@@ -25,8 +16,8 @@ submission: https://github.com/comet-ml/opik
 repo: https://github.com/comet-ml/opik
 support: https://github.com/comet-ml/opik/issues
 gallery:
-  - https://www.comet.com/site/wp-content/uploads/opik-screenshot.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Opik+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Opik+Screenshot+2
 releaseNotes: Initial release of Opik for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''

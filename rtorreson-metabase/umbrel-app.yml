@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-metabase
 name: Metabase
 tagline: Open source business intelligence and analytics
-icon: https://raw.githubusercontent.com/metabase/metabase/master/resources/logo.svg
+icon: https://raw.githubusercontent.com/metabase/metabase/master/frontend/src/metabase/public/icon.svg
 category: Data & Analytics
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Metabase is an open source way for everyone to ask questions and learn from data.
-  
-  Key features:
-  - Easy to use query builder
-  - Beautiful dashboards
-  - SQL editor for advanced users
-  - Automated reporting via email
-  - Connects to 20+ databases
-  - Embeddable charts and dashboards
-  - Access controls and permissions
-
+  Key features: - Easy to use query builder - Beautiful dashboards - SQL editor for advanced users - Automated reporting via email - Connects to 20+ databases - Embeddable charts and dashboards - Access controls and permissions
 developer: Metabase Inc
 website: https://www.metabase.com
 submitter: Rafael Torreson
@@ -25,9 +16,8 @@ submission: https://github.com/metabase/metabase
 repo: https://github.com/metabase/metabase
 support: https://github.com/metabase/metabase/issues
 gallery:
-  - https://www.metabase.com/images/screenshot-query.png
-  - https://www.metabase.com/images/screenshot-dashboard.png
+  - https://www.metabase.com/images/dashboard.png
+  - https://www.metabase.com/images/query-builder.png
 releaseNotes: Initial release of Metabase for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''

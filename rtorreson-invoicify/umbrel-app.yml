@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-invoicify
 name: Invoicify
 tagline: Open source billing and invoicing system
-icon: https://raw.githubusercontent.com/invoiceninja/invoiceninja/v5-stable/public/images/icon.png
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=IN
 category: Business
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Invoicify is a complete billing and invoice management system.
-  
-  Key features:
-  - Professional invoice creation
-  - Customizable templates
-  - Client and product management
-  - Automatic notifications
-  - Financial reports
-  - Multi-currency and taxes
-  - Payment gateway integration
-
+  Key features: - Professional invoice creation - Customizable templates - Client and product management - Automatic notifications - Financial reports - Multi-currency and taxes - Payment gateway integration
 developer: Invoicify Team
 website: https://invoicify.app
 submitter: Rafael Torreson
@@ -25,10 +16,10 @@ submission: https://github.com/invoicify/invoicify
 repo: https://github.com/invoicify/invoicify
 support: https://github.com/invoicify/invoicify/issues
 gallery:
-  - https://invoicify.app/images/screenshot-dashboard.png
-  - https://invoicify.app/images/screenshot-invoice.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Invoicify+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Invoicify+Screenshot+2
 releaseNotes: Initial release of Invoicify for Umbrel Community App Store.
 dependencies: []
-path: ""
-defaultUsername: "admin@invoicify.com"
-defaultPassword: "admin123"
+path: ''
+defaultUsername: admin@invoicify.com
+defaultPassword: admin123

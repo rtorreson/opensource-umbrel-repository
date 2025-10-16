@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-infisical
 name: Infisical
 tagline: Open source secret management platform
-icon: https://raw.githubusercontent.com/Infisical/infisical/main/frontend/public/favicon.ico
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=IN
 category: Security
-version: "1.0.0"
+version: 1.0.0
 port: 8080
-description: >-
+description: |-
   Infisical is an open source end-to-end encrypted secret management platform.
-  
-  Key features:
-  - End-to-end encryption
-  - Secret versioning
-  - Role-based access control
-  - Audit logs
-  - Integrations with CI/CD
-  - CLI and SDKs
-  - Self-hosted
-
+  Key features: - End-to-end encryption - Secret versioning - Role-based access control - Audit logs - Integrations with CI/CD - CLI and SDKs - Self-hosted
 developer: Infisical
 website: https://infisical.com
 submitter: Rafael Torreson
@@ -25,9 +16,8 @@ submission: https://github.com/Infisical/infisical
 repo: https://github.com/Infisical/infisical
 support: https://github.com/Infisical/infisical/issues
 gallery:
-  - https://infisical.com/images/screenshot-dashboard.png
-  - https://infisical.com/images/screenshot-secrets.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Infisical+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Infisical+Screenshot+2
 releaseNotes: Initial release of Infisical for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''

@@ -2,21 +2,13 @@ manifestVersion: 1
 id: rtorreson-documenso
 name: Documenso
 tagline: Open source document signing platform
-icon: https://raw.githubusercontent.com/documenso/documenso/main/public/logo.png
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DO
 category: Productivity
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Documenso is a modern open source document signing platform.
-  
-  Key features:
-  - Electronic document signing
-  - Reusable document templates
-  - Customizable workflows
-  - Modern and intuitive interface
-  - API for integrations
-  - Reports and audit logs
-
+  Key features: - Electronic document signing - Reusable document templates - Customizable workflows - Modern and intuitive interface - API for integrations - Reports and audit logs
 developer: Documenso Team
 website: https://documenso.com
 submitter: Rafael Torreson
@@ -24,10 +16,10 @@ submission: https://github.com/documenso/documenso
 repo: https://github.com/documenso/documenso
 support: https://github.com/documenso/documenso/issues
 gallery:
-  - https://documenso.com/images/screenshot-1.png
-  - https://documenso.com/images/screenshot-2.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Documenso+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Documenso+Screenshot+2
 releaseNotes: Initial release of Documenso for Umbrel Community App Store.
 dependencies: []
-path: ""
-defaultUsername: "admin@documenso.com"
-defaultPassword: "admin123"
+path: ''
+defaultUsername: admin@documenso.com
+defaultPassword: admin123

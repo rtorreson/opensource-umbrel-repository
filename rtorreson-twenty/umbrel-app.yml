@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-twenty
 name: Twenty
 tagline: Modern open source CRM built for flexibility
-icon: https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-front/public/icons/android/android-launchericon-192-192.png
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=TW
 category: Business
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Twenty is a modern CRM designed to be flexible and extensible.
-  
-  Key features:
-  - Customizable data model
-  - Advanced filtering and views
-  - Task and pipeline management
-  - Email integration
-  - API and GraphQL
-  - Modern and intuitive UI
-  - Self-hosted
-
+  Key features: - Customizable data model - Advanced filtering and views - Task and pipeline management - Email integration - API and GraphQL - Modern and intuitive UI - Self-hosted
 developer: Twenty Team
 website: https://twenty.com
 submitter: Rafael Torreson
@@ -25,11 +16,10 @@ submission: https://github.com/twentyhq/twenty
 repo: https://github.com/twentyhq/twenty
 support: https://github.com/twentyhq/twenty/issues
 gallery:
-  - https://twenty.com/images/screenshot-companies.png
-  - https://twenty.com/images/screenshot-people.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Twenty+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Twenty+Screenshot+2
 releaseNotes: Initial release of Twenty CRM for Umbrel Community App Store.
 dependencies: []
-path: ""
-defaultUsername: "admin@twenty.com"
-defaultPassword: "admin"
-
+path: ''
+defaultUsername: admin@twenty.com
+defaultPassword: admin

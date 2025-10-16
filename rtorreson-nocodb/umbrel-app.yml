@@ -2,21 +2,13 @@ manifestVersion: 1
 id: rtorreson-nocodb
 name: NocoDB
 tagline: Open source Airtable alternative turns databases into smart spreadsheets
-icon: https://nocodb.com/favicon.ico
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=NO
 category: Development
-version: "1.0.0"
+version: 1.0.0
 port: 8080
-description: >-
+description: |-
   NocoDB turns any database into a smart spreadsheet interface.
-  
-  Key features:
-  - Airtable/Google Sheets-like interface
-  - Connects with MySQL, PG, SQL Server, etc.
-  - Views: Grid, Gallery, Form, Calendar
-  - Real-time collaboration
-  - REST and GraphQL API
-  - Workflows and automations
-
+  Key features: - Airtable/Google Sheets-like interface - Connects with MySQL, PG, SQL Server, etc. - Views: Grid, Gallery, Form, Calendar - Real-time collaboration - REST and GraphQL API - Workflows and automations
 developer: NocoDB Team
 website: https://nocodb.com
 submitter: Rafael Torreson
@@ -24,11 +16,10 @@ submission: https://github.com/nocodb/nocodb
 repo: https://github.com/nocodb/nocodb
 support: https://github.com/nocodb/nocodb/issues
 gallery:
-  - https://nocodb.com/images/screenshot-grid.png
-  - https://nocodb.com/images/screenshot-gallery.png
-  - https://nocodb.com/images/screenshot-form.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=NocoDB+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=NocoDB+Screenshot+2
 releaseNotes: Initial release of NocoDB for Umbrel Community App Store.
 dependencies: []
-path: ""
-defaultUsername: "user@nocodb.com"
-defaultPassword: "password123"
+path: ''
+defaultUsername: user@nocodb.com
+defaultPassword: password123

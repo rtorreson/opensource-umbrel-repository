@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-drawio
 name: Draw.io
 tagline: Professional diagramming and flowchart tool
-icon: https://raw.githubusercontent.com/jgraph/drawio/dev/src/main/webapp/images/drawlogo.svg
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DR
 category: Productivity
-version: "1.0.0"
+version: 1.0.0
 port: 8080
-description: >-
+description: |-
   Draw.io (diagrams.net) is a free and open source diagramming tool.
-  
-  Key features:
-  - Flowcharts and UML diagrams
-  - Network diagrams
-  - Mind maps and org charts
-  - Wireframes and mockups
-  - Export to PNG, SVG, PDF
-  - Integration with cloud storage
-  - Extensive shape libraries
-
+  Key features: - Flowcharts and UML diagrams - Network diagrams - Mind maps and org charts - Wireframes and mockups - Export to PNG, SVG, PDF - Integration with cloud storage - Extensive shape libraries
 developer: JGraph
 website: https://www.diagrams.net
 submitter: Rafael Torreson
@@ -25,8 +16,8 @@ submission: https://github.com/jgraph/drawio
 repo: https://github.com/jgraph/drawio
 support: https://github.com/jgraph/drawio/issues
 gallery:
-  - https://www.diagrams.net/assets/img/blog/diagram-editor.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Draw.io+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Draw.io+Screenshot+2
 releaseNotes: Initial release of Draw.io for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''

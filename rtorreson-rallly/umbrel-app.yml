@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-rallly
 name: Rallly
 tagline: Self-hosted meeting poll and scheduling tool
-icon: https://raw.githubusercontent.com/lukevella/rallly/main/apps/web/public/apple-touch-icon.png
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=RA
 category: Productivity
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Rallly is an open source alternative to Doodle for scheduling meetings.
-  
-  Key features:
-  - Create polls for meeting times
-  - No account required for participants
-  - Real-time updates
-  - Mobile responsive design
-  - Email notifications
-  - Privacy-focused
-  - Self-hosted
-
+  Key features: - Create polls for meeting times - No account required for participants - Real-time updates - Mobile responsive design - Email notifications - Privacy-focused - Self-hosted
 developer: Luke Vella
 website: https://rallly.co
 submitter: Rafael Torreson
@@ -25,9 +16,8 @@ submission: https://github.com/lukevella/rallly
 repo: https://github.com/lukevella/rallly
 support: https://github.com/lukevella/rallly/issues
 gallery:
-  - https://rallly.co/images/screenshot-poll.png
-  - https://rallly.co/images/screenshot-create.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Rallly+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Rallly+Screenshot+2
 releaseNotes: Initial release of Rallly for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''

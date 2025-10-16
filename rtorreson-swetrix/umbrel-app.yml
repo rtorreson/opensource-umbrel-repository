@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-swetrix
 name: Swetrix
 tagline: Privacy-focused web analytics platform
-icon: https://raw.githubusercontent.com/Swetrix/swetrix-api/main/public/favicon.ico
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=SW
 category: Analytics
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Swetrix is an open source, privacy-first web analytics platform.
-  
-  Key features:
-  - Privacy-focused analytics
-  - GDPR compliant
-  - Real-time statistics
-  - Custom events tracking
-  - Performance monitoring
-  - No cookies required
-  - Self-hosted
-
+  Key features: - Privacy-focused analytics - GDPR compliant - Real-time statistics - Custom events tracking - Performance monitoring - No cookies required - Self-hosted
 developer: Swetrix
 website: https://swetrix.com
 submitter: Rafael Torreson
@@ -25,9 +16,8 @@ submission: https://github.com/Swetrix/swetrix-api
 repo: https://github.com/Swetrix/swetrix-api
 support: https://github.com/Swetrix/swetrix-api/issues
 gallery:
-  - https://swetrix.com/images/screenshot-dashboard.png
-  - https://swetrix.com/images/screenshot-realtime.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Swetrix+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Swetrix+Screenshot+2
 releaseNotes: Initial release of Swetrix for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''

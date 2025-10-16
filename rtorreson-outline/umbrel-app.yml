@@ -2,23 +2,13 @@ manifestVersion: 1
 id: rtorreson-outline
 name: Outline
 tagline: Modern collaborative documentation platform
-icon: https://avatars.githubusercontent.com/u/1765001?s=48&v=4
+icon: https://raw.githubusercontent.com/outline/outline/main/public/images/icon.png
 category: Productivity
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Outline is a modern and powerful collaborative documentation platform.
-  
-  Key features:
-  - Feature-rich editor with Markdown support
-  - Real-time collaboration
-  - Organization by collections and documents
-  - Modern and intuitive interface
-  - Advanced search
-  - Version history
-  - Comments and discussions
-  - External tool integrations
-
+  Key features: - Feature-rich editor with Markdown support - Real-time collaboration - Organization by collections and documents - Modern and intuitive interface - Advanced search - Version history - Comments and discussions - External tool integrations
 developer: Outline Team
 website: https://www.getoutline.com
 submitter: Rafael Torreson
@@ -26,17 +16,9 @@ submission: https://github.com/outline/outline
 repo: https://github.com/outline/outline
 support: https://github.com/outline/outline/issues
 gallery:
-  - https://www.getoutline.com/images/screenshot.png
-  - https://www.getoutline.com/images/emoji-menu.png
-  - https://www.getoutline.com/images/comments-home.png
-  - https://www.getoutline.com/images/rag.png
-  - https://www.getoutline.com/images/slack-outline-search.png
-  - https://www.getoutline.com/images/self-hosted-domain.png
-releaseNotes: >-
-  Initial release of Outline for Umbrel Community App Store.
-  Includes complete configuration with PostgreSQL and Redis.
-  Optimized configuration for Umbrel environment.
+  - https://user-images.githubusercontent.com/380914/110356468-26374600-8008-11eb-9a7c-e2194c0e8acc.png
+releaseNotes: Initial release of Outline for Umbrel Community App Store. Includes complete configuration with PostgreSQL and Redis. Optimized configuration for Umbrel environment.
 dependencies: []
-path: ""
-defaultUsername: ""
-defaultPassword: ""
+path: ''
+defaultUsername: ''
+defaultPassword: ''

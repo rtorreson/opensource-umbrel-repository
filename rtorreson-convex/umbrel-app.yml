@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-convex
 name: Convex
 tagline: Reactive backend as a service for modern applications
-icon: https://raw.githubusercontent.com/get-convex/convex-backend/main/npm-packages/dashboard/public/favicon.ico
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=CO
 category: Development
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   Convex is a reactive backend platform that replaces your database, server, and API.
-  
-  Key features:
-  - Real-time database with reactivity
-  - Serverless functions
-  - File storage
-  - Full-text search
-  - Authentication
-  - TypeScript support
-  - Local development
-
+  Key features: - Real-time database with reactivity - Serverless functions - File storage - Full-text search - Authentication - TypeScript support - Local development
 developer: Convex
 website: https://convex.dev
 submitter: Rafael Torreson
@@ -25,8 +16,8 @@ submission: https://github.com/get-convex/convex-backend
 repo: https://github.com/get-convex/convex-backend
 support: https://github.com/get-convex/convex-backend/issues
 gallery:
-  - https://convex.dev/images/screenshot-dashboard.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Convex+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Convex+Screenshot+2
 releaseNotes: Initial release of Convex for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''

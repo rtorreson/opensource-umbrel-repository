@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-horilla
 name: Horilla
 tagline: Open source HR management system
-icon: https://raw.githubusercontent.com/horilla-opensource/horilla/main/static/images/logo.png
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=HO
 category: HR & Management
-version: "1.0.0"
+version: 1.0.0
 port: 8000
-description: >-
+description: |-
   Horilla is a comprehensive open source HRMS (Human Resource Management System).
-  
-  Key features:
-  - Employee management
-  - Attendance tracking
-  - Leave management
-  - Payroll processing
-  - Recruitment and onboarding
-  - Performance management
-  - Self-hosted
-
+  Key features: - Employee management - Attendance tracking - Leave management - Payroll processing - Recruitment and onboarding - Performance management - Self-hosted
 developer: Horilla Team
 website: https://horilla.com
 submitter: Rafael Torreson
@@ -25,11 +16,10 @@ submission: https://github.com/horilla-opensource/horilla
 repo: https://github.com/horilla-opensource/horilla
 support: https://github.com/horilla-opensource/horilla/issues
 gallery:
-  - https://horilla.com/images/screenshot-dashboard.png
-  - https://horilla.com/images/screenshot-employees.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Horilla+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Horilla+Screenshot+2
 releaseNotes: Initial release of Horilla for Umbrel Community App Store.
 dependencies: []
-path: ""
-defaultUsername: "admin"
-defaultPassword: "admin"
-
+path: ''
+defaultUsername: admin
+defaultPassword: admin

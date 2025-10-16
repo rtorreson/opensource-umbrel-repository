@@ -2,22 +2,13 @@ manifestVersion: 1
 id: rtorreson-drawdb
 name: DrawDB
 tagline: Free database design tool and SQL generator
-icon: https://raw.githubusercontent.com/drawdb-io/drawdb/main/public/icon.png
+icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DR
 category: Development
-version: "1.0.0"
+version: 1.0.0
 port: 3000
-description: >-
+description: |-
   DrawDB is a robust and user-friendly database entity relationship editor.
-  
-  Key features:
-  - Visual database design with drag and drop
-  - Export to SQL for multiple databases
-  - Import from SQL or DDL
-  - Customizable themes
-  - No account required
-  - Export diagrams as images or PDF
-  - Supports MySQL, PostgreSQL, SQLite, SQL Server
-
+  Key features: - Visual database design with drag and drop - Export to SQL for multiple databases - Import from SQL or DDL - Customizable themes - No account required - Export diagrams as images or PDF - Supports MySQL, PostgreSQL, SQLite, SQL Server
 developer: DrawDB Team
 website: https://drawdb.vercel.app
 submitter: Rafael Torreson
@@ -25,9 +16,8 @@ submission: https://github.com/drawdb-io/drawdb
 repo: https://github.com/drawdb-io/drawdb
 support: https://github.com/drawdb-io/drawdb/issues
 gallery:
-  - https://raw.githubusercontent.com/drawdb-io/drawdb/main/public/screenshot1.png
-  - https://raw.githubusercontent.com/drawdb-io/drawdb/main/public/screenshot2.png
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=DrawDB+Screenshot+1
+  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=DrawDB+Screenshot+2
 releaseNotes: Initial release of DrawDB for Umbrel Community App Store.
 dependencies: []
-path: ""
-
+path: ''
