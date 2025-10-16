@@ -6,7 +6,7 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: opensource-outline_outline_1
-      APP_PORT: 3000
+      APP_PORT: 4792
     
   outline:
     image: outlinewiki/outline:latest
@@ -18,7 +18,7 @@ services:
       REDIS_URL: redis://redis:6379
       SECRET_KEY: your-secret-key-here
       UTILS_SECRET: your-utils-secret-here
-      URL: http://localhost:3000
+      URL: http://localhost:4792
     volumes:
       - outline_data:/var/lib/outline
     depends_on:
