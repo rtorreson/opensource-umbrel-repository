@@ -2,7 +2,7 @@ manifestVersion: 1
 id: opensource-outline
 name: Outline
 tagline: Plataforma de documentação colaborativa moderna
-icon: https://raw.githubusercontent.com/outline/outline/main/public/images/logo.png
+icon: https://avatars.githubusercontent.com/u/1765001?s=48&v=4
 category: Productivity
 version: "1.0.0"
 port: 3000

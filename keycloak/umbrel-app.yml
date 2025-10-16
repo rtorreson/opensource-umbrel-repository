@@ -2,7 +2,7 @@ manifestVersion: 1
 id: opensource-keycloak
 name: Keycloak
 tagline: Solução de gerenciamento de identidade e acesso
-icon: https://www.keycloak.org/resources/images/keycloak_logo_200px.svg
+icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fzenitech.co.uk%2Fwp-content%2Fuploads%2F2023%2F11%2Fkeycloak.png&f=1&nofb=1&ipt=cfbcc7063f15d64bcdadb9efe26829122ac8fee0abbe5680011707a8b3a4a105
 category: Security
 version: "1.0.0"
 port: 8080
