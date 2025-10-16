@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-rivet
 name: Rivet
 tagline: Visual programming environment for AI agents and workflows
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=RI
+icon: https://rivet.ironcladapp.com/img/logo-white.svg
 category: Development
 version: 1.0.0
 port: 8000
@@ -16,8 +16,7 @@ submission: https://github.com/Ironclad/rivet
 repo: https://github.com/Ironclad/rivet
 support: https://github.com/Ironclad/rivet/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Rivet+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Rivet+Screenshot+2
+  - https://rivet.ironcladapp.com/img/rivet-screenshot-dark.png
 releaseNotes: Initial release of Rivet for Umbrel Community App Store.
 dependencies: []
 path: ''

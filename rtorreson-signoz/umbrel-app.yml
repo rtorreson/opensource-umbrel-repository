@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-signoz
 name: SigNoz
 tagline: Open source observability and APM platform
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=SI
+icon: https://signoz.io/img/SigNoz-logo-light.svg
 category: Monitoring
 version: 1.0.0
 port: 3301
@@ -16,8 +16,7 @@ submission: https://github.com/SigNoz/signoz
 repo: https://github.com/SigNoz/signoz
 support: https://github.com/SigNoz/signoz/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=SigNoz+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=SigNoz+Screenshot+2
+  - https://signoz.io/img/Metrics-dashboard.webp
 releaseNotes: Initial release of SigNoz for Umbrel Community App Store.
 dependencies: []
 path: ''

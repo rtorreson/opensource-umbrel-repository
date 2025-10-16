@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-mathesar
 name: Mathesar
 tagline: Intuitive database interface for PostgreSQL
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=MA
+icon: https://mathesar.org/static/img/logo-light.svg
 category: Data & Analytics
 version: 1.0.0
 port: 8000
@@ -16,8 +16,7 @@ submission: https://github.com/centerofci/mathesar
 repo: https://github.com/centerofci/mathesar
 support: https://github.com/centerofci/mathesar/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Mathesar+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Mathesar+Screenshot+2
+  - https://mathesar.org/static/img/hero-image-light.png
 releaseNotes: Initial release of Mathesar for Umbrel Community App Store.
 dependencies: []
 path: ''

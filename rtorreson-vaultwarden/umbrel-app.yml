@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-vaultwarden
 name: Vaultwarden
 tagline: Lightweight self-hosted Bitwarden implementation
-icon: https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/resources/vaultwarden-icon.svg
+icon: https://vaultwarden.net/logo-text-white.svg
 category: Security
 version: 1.0.0
 port: 80
@@ -16,7 +16,7 @@ submission: https://github.com/dani-garcia/vaultwarden
 repo: https://github.com/dani-garcia/vaultwarden
 support: https://github.com/dani-garcia/vaultwarden/issues
 gallery:
-  - https://raw.githubusercontent.com/bitwarden/brand/master/screenshots/web-vault.png
+  - https://vaultwarden.net/gallery/vault.png
 releaseNotes: Initial release of Vaultwarden for Umbrel Community App Store.
 dependencies: []
 path: ''

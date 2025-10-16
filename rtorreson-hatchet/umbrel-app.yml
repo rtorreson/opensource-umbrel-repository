@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-hatchet
 name: Hatchet
 tagline: Workflow and asynchronous task platform
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=HA
+icon: https://docs.hatchet.run/img/logo-white.svg
 category: Development
 version: 1.0.0
 port: 8080
@@ -16,8 +16,7 @@ submission: https://github.com/hatchet-run/hatchet
 repo: https://github.com/hatchet-run/hatchet
 support: https://github.com/hatchet-run/hatchet/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Hatchet+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Hatchet+Screenshot+2
+  - https://hatchet.run/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-dark-screenshot.53794611.png&w=1920&q=75
 releaseNotes: Initial release of Hatchet for Umbrel Community App Store.
 dependencies: []
 path: ''

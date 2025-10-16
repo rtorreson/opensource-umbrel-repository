@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-kanri
 name: Kanri
 tagline: Offline-first Kanban board for personal task management
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=KA
+icon: https://getkanri.com/logo-header.png
 category: Productivity
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/trobonox/kanri
 repo: https://github.com/trobonox/kanri
 support: https://github.com/trobonox/kanri/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Kanri+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Kanri+Screenshot+2
+  - https://getkanri.com/app.png
 releaseNotes: Initial release of Kanri for Umbrel Community App Store.
 dependencies: []
 path: ''

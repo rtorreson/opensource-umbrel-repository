@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-documenso
 name: Documenso
 tagline: Open source document signing platform
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DO
+icon: https://raw.githubusercontent.com/documenso/documenso/main/apps/web/public/logo-light.svg
 category: Productivity
 version: 1.0.0
 port: 3000
@@ -16,8 +16,8 @@ submission: https://github.com/documenso/documenso
 repo: https://github.com/documenso/documenso
 support: https://github.com/documenso/documenso/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Documenso+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Documenso+Screenshot+2
+  - https://documenso.com/images/product-animated.gif
+  - https://documenso.com/images/product/documents.png
 releaseNotes: Initial release of Documenso for Umbrel Community App Store.
 dependencies: []
 path: ''

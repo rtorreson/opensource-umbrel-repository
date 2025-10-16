@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-polotno
 name: Polotno Studio
 tagline: Free online graphic design editor
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=PO
+icon: https://polotno.com/img/logo-large-dark.svg
 category: Design
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/polotno-project/polotno-studio
 repo: https://github.com/polotno-project/polotno-studio
 support: https://github.com/polotno-project/polotno-studio/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Polotno%20Studio+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Polotno%20Studio+Screenshot+2
+  - https://polotno.com/img/admin/demo-1.jpg
 releaseNotes: Initial release of Polotno Studio for Umbrel Community App Store.
 dependencies: []
 path: ''

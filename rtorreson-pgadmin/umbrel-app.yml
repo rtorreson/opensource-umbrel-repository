@@ -17,7 +17,6 @@ repo: https://github.com/pgadmin-org/pgadmin4
 support: https://github.com/pgadmin-org/pgadmin4/issues
 gallery:
   - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-welcome-light.png
-  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-dashboard.png
 releaseNotes: Initial release of pgAdmin for Umbrel Community App Store. Includes optimized configuration for Umbrel environment with default credentials.
 dependencies: []
 path: ''

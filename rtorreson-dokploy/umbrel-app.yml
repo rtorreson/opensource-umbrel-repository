@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-dokploy
 name: Dokploy
 tagline: Simplified deployment platform for Docker applications
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DO
+icon: https://dokploy.com/logo.svg
 category: Development
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/Dokploy/dokploy
 repo: https://github.com/Dokploy/dokploy
 support: https://github.com/Dokploy/dokploy/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Dokploy+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Dokploy+Screenshot+2
+  - https://dokploy.com/screenshot.png
 releaseNotes: Initial release of Dokploy for Umbrel Community App Store.
 dependencies: []
 path: ''

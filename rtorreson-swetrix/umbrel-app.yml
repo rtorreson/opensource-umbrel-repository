@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-swetrix
 name: Swetrix
 tagline: Privacy-focused web analytics platform
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=SW
+icon: https://swetrix.com/images/logo-white.svg
 category: Analytics
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/Swetrix/swetrix-api
 repo: https://github.com/Swetrix/swetrix-api
 support: https://github.com/Swetrix/swetrix-api/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Swetrix+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Swetrix+Screenshot+2
+  - https://swetrix.com/_next/image?url=%2Fimages%2Fhero-dark.png&w=3840&q=75
 releaseNotes: Initial release of Swetrix for Umbrel Community App Store.
 dependencies: []
 path: ''

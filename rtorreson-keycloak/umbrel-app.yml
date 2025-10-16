@@ -16,7 +16,7 @@ submission: https://github.com/keycloak/keycloak
 repo: https://github.com/keycloak/keycloak
 support: https://github.com/keycloak/keycloak/issues
 gallery:
-  - https://www.keycloak.org/resources/images/screen-login.png
+  - https://www.keycloak.org/resources/images/keycloak-screen-1.png
 releaseNotes: Initial release of Keycloak for Umbrel Community App Store.
 dependencies: []
 path: ''

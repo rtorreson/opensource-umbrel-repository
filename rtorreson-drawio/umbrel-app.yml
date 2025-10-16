@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-drawio
 name: Draw.io
 tagline: Professional diagramming and flowchart tool
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DR
+icon: https://www.drawio.com/images/drawlogo2.svg
 category: Productivity
 version: 1.0.0
 port: 8080
@@ -16,8 +16,7 @@ submission: https://github.com/jgraph/drawio
 repo: https://github.com/jgraph/drawio
 support: https://github.com/jgraph/drawio/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Draw.io+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Draw.io+Screenshot+2
+  - https://app.diagrams.net/img/diagram-editor.png
 releaseNotes: Initial release of Draw.io for Umbrel Community App Store.
 dependencies: []
 path: ''

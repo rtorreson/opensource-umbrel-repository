@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-ryot
 name: Ryot
 tagline: Self-hosted tracker for media and fitness
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=RY
+icon: https://ryot.pro/images/logo.svg
 category: Media & Entertainment
 version: 1.0.0
 port: 8000
@@ -16,8 +16,7 @@ submission: https://github.com/IgnisDa/ryot
 repo: https://github.com/IgnisDa/ryot
 support: https://github.com/IgnisDa/ryot/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Ryot+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Ryot+Screenshot+2
+  - https://ryot.pro/images/hero-dark.png
 releaseNotes: Initial release of Ryot for Umbrel Community App Store.
 dependencies: []
 path: ''

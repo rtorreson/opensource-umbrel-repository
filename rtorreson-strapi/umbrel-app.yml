@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-strapi
 name: Strapi
 tagline: Open source headless CMS for modern applications
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=ST
+icon: https://strapi.io/assets/strapi-logo-light.svg
 category: Business
 version: 1.0.0
 port: 1337
@@ -16,8 +16,7 @@ submission: https://github.com/strapi/strapi
 repo: https://github.com/strapi/strapi
 support: https://github.com/strapi/strapi/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Strapi+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Strapi+Screenshot+2
+  - https://strapi.io/assets/assets/admin_panel_ce_37d6cd4f25.webp
 releaseNotes: Initial release of Strapi for Umbrel Community App Store.
 dependencies: []
 path: ''

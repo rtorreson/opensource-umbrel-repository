@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-languagetool
 name: LanguageTool
 tagline: Open source proofreading and grammar checker
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=LA
+icon: https://languagetool.org/images/lt-logo-white-2x.png
 category: Utilities
 version: 1.0.0
 port: 8010
@@ -16,8 +16,7 @@ submission: https://github.com/languagetool-org/languagetool
 repo: https://github.com/languagetool-org/languagetool
 support: https://github.com/languagetool-org/languagetool/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=LanguageTool+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=LanguageTool+Screenshot+2
+  - https://languagetool.org/images/proofreading-example-2023-pt-BR%402x.png
 releaseNotes: Initial release of LanguageTool for Umbrel Community App Store.
 dependencies: []
 path: ''

@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-opensign
 name: OpenSign
 tagline: Open source document signing platform
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=OP
+icon: https://opensignlabs.com/_next/image?url=%2Fimg%2Flogo%2Flogo_white.png&w=256&q=75
 category: Productivity
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/OpenSignLabs/OpenSign
 repo: https://github.com/OpenSignLabs/OpenSign
 support: https://github.com/OpenSignLabs/OpenSign/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=OpenSign+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=OpenSign+Screenshot+2
+  - https://opensignlabs.com/_next/image?url=%2Fimg%2Fscreenshot%2Fdark_dashboard.png&w=1920&q=75
 releaseNotes: Initial release of OpenSign for Umbrel Community App Store.
 dependencies: []
 path: ''

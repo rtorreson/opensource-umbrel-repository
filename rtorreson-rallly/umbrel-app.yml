@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-rallly
 name: Rallly
 tagline: Self-hosted meeting poll and scheduling tool
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=RA
+icon: https://rallly.co/logo.svg
 category: Productivity
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/lukevella/rallly
 repo: https://github.com/lukevella/rallly
 support: https://github.com/lukevella/rallly/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Rallly+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Rallly+Screenshot+2
+  - https://rallly.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fscreenshot.7618256a.png&w=3840&q=75
 releaseNotes: Initial release of Rallly for Umbrel Community App Store.
 dependencies: []
 path: ''

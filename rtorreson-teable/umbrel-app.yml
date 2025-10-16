@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-teable
 name: Teable
 tagline: Modern database with real-time spreadsheet interface
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=TE
+icon: https://teable.io/images/logo-dark-v2.png
 category: Development
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/teableio/teable
 repo: https://github.com/teableio/teable
 support: https://github.com/teableio/teable/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Teable+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Teable+Screenshot+2
+  - https://teable.io/_next/image?url=%2Fimages%2Fhome%2Fteable-screenshot.png&w=3840&q=75
 releaseNotes: Initial release of Teable for Umbrel Community App Store.
 dependencies: []
 path: ''

@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-gitpod
 name: Gitpod
 tagline: Cloud development environment for any project
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=GI
+icon: https://www.gitpod.io/logo.svg
 category: Development
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/gitpod-io/gitpod
 repo: https://github.com/gitpod-io/gitpod
 support: https://github.com/gitpod-io/gitpod/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Gitpod+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Gitpod+Screenshot+2
+  - https://www.gitpod.io/images/jetbrains-gateway/gitpod-jetbrains-gateway-start.png
 releaseNotes: Initial release of Gitpod for Umbrel Community App Store. Note - Gitpod self-hosted requires significant resources.
 dependencies: []
 path: ''

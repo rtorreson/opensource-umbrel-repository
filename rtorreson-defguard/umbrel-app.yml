@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-defguard
 name: Defguard
 tagline: Open source VPN and SSO/2FA platform
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DE
+icon: https://defguard.net/img/logo_icon.svg
 category: Security
 version: 1.0.0
 port: 8000
@@ -16,8 +16,8 @@ submission: https://github.com/DefGuard/defguard
 repo: https://github.com/DefGuard/defguard
 support: https://github.com/DefGuard/defguard/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Defguard+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Defguard+Screenshot+2
+  - https://defguard.net/img/screenshots/dashboard.png
+  - https://defguard.net/img/screenshots/desktop_phone.png
 releaseNotes: Initial release of Defguard for Umbrel Community App Store.
 dependencies: []
 path: ''

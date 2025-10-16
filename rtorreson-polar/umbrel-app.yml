@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-polar
 name: Polar
 tagline: Monetization platform for open source maintainers
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=PO
+icon: https://polar.sh/assets/brand/logo-dark.svg
 category: Finance
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/polarsource/polar
 repo: https://github.com/polarsource/polar
 support: https://github.com/polarsource/polar/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Polar+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Polar+Screenshot+2
+  - https://polar.sh/_next/image?url=%2Fassets%2Fpreviews%2Fembed-issues.png&w=1920&q=75
 releaseNotes: Initial release of Polar for Umbrel Community App Store.
 dependencies: []
 path: ''

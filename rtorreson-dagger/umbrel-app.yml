@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-dagger
 name: Dagger
 tagline: Programmable CI/CD engine that runs pipelines in containers
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DA
+icon: https://dagger.io/images/dagger-logo-white.svg
 category: Development
 version: 1.0.0
 port: 8080
@@ -16,8 +16,7 @@ submission: https://github.com/dagger/dagger
 repo: https://github.com/dagger/dagger
 support: https://github.com/dagger/dagger/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Dagger+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Dagger+Screenshot+2
+  - https://dagger.io/images/getting-started-sdk-dark.png
 releaseNotes: Initial release of Dagger for Umbrel Community App Store.
 dependencies: []
 path: ''

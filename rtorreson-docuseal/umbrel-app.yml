@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-docuseal
 name: DocuSeal
 tagline: Open source platform to create and sign documents
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=DO
+icon: https://docuseal.co/images/docuseal-logo-dark-512.png
 category: Productivity
 version: 1.0.0
 port: 3000
@@ -16,8 +16,8 @@ submission: https://github.com/docusealco/docuseal
 repo: https://github.com/docusealco/docuseal
 support: https://github.com/docusealco/docuseal/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=DocuSeal+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=DocuSeal+Screenshot+2
+  - https://docuseal.co/_next/image?url=%2Fimages%2Fproducts%2Fforms.png&w=3840&q=75
+  - https://docuseal.co/_next/image?url=%2Fimages%2Fproducts%2Fsubmits.png&w=3840&q=75
 releaseNotes: Initial release of DocuSeal for Umbrel Community App Store.
 dependencies: []
 path: ''

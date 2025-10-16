@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-airbyte
 name: Airbyte
 tagline: Open source data integration and ETL platform
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=AI
+icon: https://assets-global.website-files.com/6036109312567431e50f1190/65d1d401309df50e18147d33_airbyte-logo.png
 category: Integration
 version: 1.0.0
 port: 8000
@@ -16,8 +16,8 @@ submission: https://github.com/airbytehq/airbyte
 repo: https://github.com/airbytehq/airbyte
 support: https://github.com/airbytehq/airbyte/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Airbyte+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Airbyte+Screenshot+2
+  - https://docs.airbyte.com/assets/images/connections_list-4966601f016335123d45d90161405df6.png
+  - https://docs.airbyte.com/assets/images/getting-started-0c1b34895c76f3b6b4316892e63b12d3.png
 releaseNotes: Initial release of Airbyte for Umbrel Community App Store.
 dependencies: []
 path: ''

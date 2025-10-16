@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-kaneo
 name: Kaneo
 tagline: Self-hosted product analytics platform
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=KA
+icon: https://avatars.githubusercontent.com/u/148814444?s=400&v=4
 category: Analytics
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/kaneohq/kaneo
 repo: https://github.com/kaneohq/kaneo
 support: https://github.com/kaneohq/kaneo/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Kaneo+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Kaneo+Screenshot+2
+  - https://user-images.githubusercontent.com/182798/284422201-97063301-419a-412e-a20c-c9d3013d5a44.png
 releaseNotes: Initial release of Kaneo for Umbrel Community App Store.
 dependencies: []
 path: ''

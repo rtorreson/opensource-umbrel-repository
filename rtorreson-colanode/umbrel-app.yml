@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-colanode
 name: Colanode
 tagline: Self-hosted collaborative note-taking platform
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=CO
+icon: https://www.colanode.com/favicon.png
 category: Productivity
 version: 1.0.0
 port: 3000
@@ -16,8 +16,7 @@ submission: https://github.com/colanode/colanode
 repo: https://github.com/colanode/colanode
 support: https://github.com/colanode/colanode/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Colanode+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Colanode+Screenshot+2
+  - https://www.colanode.com/colanode-app.png
 releaseNotes: Initial release of Colanode for Umbrel Community App Store.
 dependencies: []
 path: ''

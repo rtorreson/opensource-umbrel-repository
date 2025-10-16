@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-tdengine
 name: TDEngine
 tagline: High-performance time-series database
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=TD
+icon: https://tdengine.com/wp-content/uploads/2022/08/TDengine-logo-white-0909.png
 category: Data & Analytics
 version: 1.0.0
 port: 6041
@@ -16,8 +16,7 @@ submission: https://github.com/taosdata/TDengine
 repo: https://github.com/taosdata/TDengine
 support: https://github.com/taosdata/TDengine/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=TDEngine+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=TDEngine+Screenshot+2
+  - https://tdengine.com/wp-content/uploads/2023/07/20230718-115321.png
 releaseNotes: Initial release of TDEngine for Umbrel Community App Store.
 dependencies: []
 path: ''

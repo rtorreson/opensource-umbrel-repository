@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-netdata
 name: Netdata
 tagline: Real-time monitoring with powerful visualizations
-icon: https://via.placeholder.com/200x200/6B7280/FFFFFF?text=NE
+icon: https://raw.githubusercontent.com/netdata/netdata/master/web/gui/src/images/logo.svg
 category: Monitoring
 version: 1.0.0
 port: 19999
@@ -16,8 +16,8 @@ submission: https://github.com/netdata/netdata
 repo: https://github.com/netdata/netdata
 support: https://github.com/netdata/netdata/issues
 gallery:
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Netdata+Screenshot+1
-  - https://via.placeholder.com/1200x675/1F2937/9CA3AF?text=Netdata+Screenshot+2
+  - https://user-images.githubusercontent.com/152494/69990805-09a4b000-1519-11ea-9a88-2946115617a2.png
+  - https://user-images.githubusercontent.com/152494/69990806-09a4b000-1519-11ea-92b8-50854890f84a.png
 releaseNotes: Initial release of Netdata for Umbrel Community App Store.
 dependencies: []
 path: ''
