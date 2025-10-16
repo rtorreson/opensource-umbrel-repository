@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: pgadmin
+name: pgAdmin
+tagline: Ferramenta de administração e desenvolvimento para PostgreSQL
+icon: https://www.pgadmin.org/static/img/pgadmin4.png
+category: Development
+version: "1.0.0"
+port: 80
+description: >-
+  pgAdmin é a ferramenta de administração mais popular e rica em recursos para PostgreSQL.
+  
+  Características principais:
+  - Interface web moderna e responsiva
+  - Gerenciamento completo de bancos de dados PostgreSQL
+  - Editor SQL avançado com syntax highlighting
+  - Visualização de dados e estatísticas
+  - Backup e restore de bancos de dados
+  - Gerenciamento de usuários e permissões
+  - Monitoramento de performance
+
+developer: pgAdmin Development Team
+website: https://www.pgadmin.org
+submitter: Community
+submission: https://github.com/pgadmin-org/pgadmin4
+repo: https://github.com/pgadmin-org/pgadmin4
+support: https://github.com/pgadmin-org/pgadmin4/issues
+gallery:
+  - https://www.pgadmin.org/static/img/screenshots/pgadmin-4-1.png
+  - https://www.pgadmin.org/static/img/screenshots/pgadmin-4-2.png
+  - https://www.pgadmin.org/static/img/screenshots/pgadmin-4-3.png
+releaseNotes: >-
+  Versão inicial do pgAdmin para Umbrel Community App Store.
+  Inclui configuração otimizada para ambiente Umbrel com credenciais padrão.
+dependencies: []
+path: ""
+defaultUsername: "admin@pgadmin.org"
+defaultPassword: "admin"
