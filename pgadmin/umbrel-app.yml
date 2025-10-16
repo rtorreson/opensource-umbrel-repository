@@ -5,7 +5,7 @@ tagline: Ferramenta de administração e desenvolvimento para PostgreSQL
 icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdeveloper.asustor.com%2FuploadIcons%2F0020_96009_1552971827_pgadmin-icon.png&f=1&nofb=1&ipt=a249d35be09e7544e73006a4ec364bdd0208bc884bc96b1bfeed0d8af2dd180f
 category: Development
 version: "1.0.0"
-port: 80
+port: 8090
 description: >-
   pgAdmin é a ferramenta de administração mais popular e rica em recursos para PostgreSQL.
   
@@ -20,14 +20,26 @@ description: >-
 
 developer: pgAdmin Development Team
 website: https://www.pgadmin.org
-submitter: Community
+submitter: Rafael Torreson
 submission: https://github.com/pgadmin-org/pgadmin4
 repo: https://github.com/pgadmin-org/pgadmin4
 support: https://github.com/pgadmin-org/pgadmin4/issues
 gallery:
-  - https://www.pgadmin.org/static/img/screenshots/pgadmin-4-1.png
-  - https://www.pgadmin.org/static/img/screenshots/pgadmin-4-2.png
-  - https://www.pgadmin.org/static/img/screenshots/pgadmin-4-3.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-welcome-light.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-welcome-dark.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-dashboard.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-activity.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-properties.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-docking.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-viewdata.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-geometry.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-history.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-explain.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-debugger.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-grantwizard.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-backup.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-preferences.png
+  - https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-search.png
 releaseNotes: >-
   Versão inicial do pgAdmin para Umbrel Community App Store.
   Inclui configuração otimizada para ambiente Umbrel com credenciais padrão.
