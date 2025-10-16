@@ -1,0 +1,39 @@
+manifestVersion: 1
+id: opensource-outline
+name: Outline
+tagline: Plataforma de documentação colaborativa moderna
+icon: https://raw.githubusercontent.com/outline/outline/main/public/images/logo.png
+category: Productivity
+version: "1.0.0"
+port: 3000
+description: >-
+  Outline é uma plataforma de documentação colaborativa moderna e poderosa.
+  
+  Características principais:
+  - Editor rico em recursos com suporte a Markdown
+  - Colaboração em tempo real
+  - Organização por coleções e documentos
+  - Interface moderna e intuitiva
+  - Busca avançada
+  - Histórico de versões
+  - Comentários e discussões
+  - Integração com ferramentas externas
+
+developer: Outline Team
+website: https://www.getoutline.com
+submitter: Community
+submission: https://github.com/outline/outline
+repo: https://github.com/outline/outline
+support: https://github.com/outline/outline/issues
+gallery:
+  - https://raw.githubusercontent.com/outline/outline/main/docs/screenshots/editor.png
+  - https://raw.githubusercontent.com/outline/outline/main/docs/screenshots/collections.png
+  - https://raw.githubusercontent.com/outline/outline/main/docs/screenshots/search.png
+releaseNotes: >-
+  Versão inicial do Outline para Umbrel Community App Store.
+  Inclui configuração completa com PostgreSQL e Redis.
+  Configuração otimizada para ambiente Umbrel.
+dependencies: []
+path: ""
+defaultUsername: "admin@outline.com"
+defaultPassword: "admin123"

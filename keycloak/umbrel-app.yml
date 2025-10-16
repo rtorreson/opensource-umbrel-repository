@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: opensource-keycloak
+name: Keycloak
+tagline: Solução de gerenciamento de identidade e acesso
+icon: https://www.keycloak.org/resources/images/keycloak_logo_200px.svg
+category: Security
+version: "1.0.0"
+port: 8080
+description: >-
+  Keycloak é uma solução de gerenciamento de identidade e acesso de código aberto.
+  
+  Características principais:
+  - Single Sign-On (SSO) e Single Sign-Out
+  - Gerenciamento de usuários e grupos
+  - Autenticação multi-fator (MFA)
+  - Integração com protocolos padrão (OAuth 2.0, OpenID Connect, SAML)
+  - Federação de identidade
+  - Gerenciamento de sessões
+  - Console administrativo completo
+  - Temas personalizáveis
+  - Suporte a múltiplos bancos de dados
+
+developer: Red Hat
+website: https://www.keycloak.org
+submitter: Community
+submission: https://github.com/keycloak/keycloak
+repo: https://github.com/keycloak/keycloak
+support: https://github.com/keycloak/keycloak/issues
+gallery:
+  - https://www.keycloak.org/resources/images/admin-console.png
+  - https://www.keycloak.org/resources/images/user-account.png
+  - https://www.keycloak.org/resources/images/client-settings.png
+releaseNotes: >-
+  Versão inicial do Keycloak para Umbrel Community App Store.
+  Inclui configuração completa com PostgreSQL.
+  Configuração otimizada para ambiente Umbrel com modo de desenvolvimento habilitado.
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"

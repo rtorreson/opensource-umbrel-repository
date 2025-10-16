@@ -1,26 +1,37 @@
-## pgAdmin - Umbrel Community App Store
+## Open Source Apps - Umbrel Community App Store
 
-Este repositório contém o pgAdmin configurado para funcionar como um app na Umbrel Community App Store. O pgAdmin é uma ferramenta de administração e desenvolvimento para PostgreSQL, fornecendo uma interface web intuitiva para gerenciar bancos de dados PostgreSQL.
+Este repositório contém uma coleção de aplicações open source populares configuradas para funcionar na Umbrel Community App Store. Cada app foi cuidadosamente configurado para oferecer a melhor experiência possível no ambiente Umbrel.
 
-## Sobre o pgAdmin:
+## Apps Disponíveis:
 
-O pgAdmin é a ferramenta de administração mais popular e rica em recursos para PostgreSQL. Ele oferece:
-
+### 🐘 pgAdmin
+Ferramenta de administração e desenvolvimento para PostgreSQL
 - Interface web moderna e responsiva
 - Gerenciamento completo de bancos de dados PostgreSQL
 - Editor SQL avançado com syntax highlighting
-- Visualização de dados e estatísticas
 - Backup e restore de bancos de dados
-- Gerenciamento de usuários e permissões
-- Monitoramento de performance
+
+### 📝 Outline
+Plataforma de documentação colaborativa
+- Editor rico em recursos
+- Colaboração em tempo real
+- Organização por coleções
+- Interface moderna e intuitiva
+
+### 🔐 Keycloak
+Solução de gerenciamento de identidade e acesso
+- Single Sign-On (SSO)
+- Gerenciamento de usuários e grupos
+- Autenticação multi-fator
+- Integração com protocolos padrão (OAuth, OpenID Connect)
 
 ## Como usar:
 
-1. Este app store contém o pgAdmin configurado para funcionar na Umbrel
-2. O app store ID é `pgadmin` e o app ID é `pgadmin`
-3. O pgAdmin será acessível através da interface web da Umbrel
-4. Para conectar a bancos de dados PostgreSQL, você precisará das credenciais de conexão
-5. O pgAdmin está configurado para funcionar na porta padrão e será roteado automaticamente pela Umbrel
+1. Este app store contém múltiplas aplicações open source configuradas para a Umbrel
+2. Cada app pode ser instalado independentemente
+3. Todos os apps são acessíveis através da interface web da Umbrel
+4. Cada app possui suas próprias credenciais padrão documentadas
+5. Os apps estão configurados para funcionar nas portas padrão e são roteados automaticamente pela Umbrel
 
 
 https://user-images.githubusercontent.com/10330103/197889452-e5cd7e96-3233-4a09-b475-94b754adc7a3.mp4
