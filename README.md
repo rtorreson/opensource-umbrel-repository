@@ -18,12 +18,12 @@ Plataforma de documentação colaborativa
 - Organização por coleções
 - Interface moderna e intuitiva
 
-### 🔐 Keycloak
+<!-- ### 🔐 Keycloak
 Solução de gerenciamento de identidade e acesso
 - Single Sign-On (SSO)
 - Gerenciamento de usuários e grupos
 - Autenticação multi-fator
-- Integração com protocolos padrão (OAuth, OpenID Connect)
+- Integração com protocolos padrão (OAuth, OpenID Connect) -->
 
 ## Como usar:
 
