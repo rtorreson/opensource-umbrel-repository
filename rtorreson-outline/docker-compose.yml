@@ -1,26 +1,25 @@
 version: "3.7"
 
 services:
-
   app_proxy:
     environment:
-      # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: opensource-outline_outline_1
-      APP_PORT: 4792
+      APP_PORT: 3000 
     
   outline:
     image: outlinewiki/outline:latest
-    user: "1000:1000"
     init: true
     environment:
       NODE_ENV: production
       DATABASE_URL: postgres://outline:outline@postgres:5432/outline
       REDIS_URL: redis://redis:6379
-      SECRET_KEY: your-secret-key-here
-      UTILS_SECRET: your-utils-secret-here
-      URL: http://localhost:4792
+      SECRET_KEY: your-secret-key-change-this-in-production
+      UTILS_SECRET: your-utils-secret-change-this-too
+      URL: http://localhost:3000
+      FORCE_HTTPS: "false"
     volumes:
       - outline_data:/var/lib/outline
+      - outline_storage:/opt/outline/storage  
     depends_on:
       - postgres
       - redis
@@ -28,7 +27,6 @@ services:
 
   postgres:
     image: postgres:13-alpine
-    user: "1000:1000"
     environment:
       POSTGRES_DB: outline
       POSTGRES_USER: outline
@@ -39,12 +37,12 @@ services:
 
   redis:
     image: redis:6-alpine
-    user: "1000:1000"
     volumes:
       - redis_data:/data
     restart: unless-stopped
 
 volumes:
   outline_data:
+  outline_storage:
   postgres_data:
   redis_data:
