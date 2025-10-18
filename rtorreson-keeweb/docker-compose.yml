@@ -4,9 +4,11 @@ services:
   app_proxy:
     environment:
       APP_HOST: opensource-keeweb_keeweb_1
-      APP_PORT: 80
+      APP_PORT: 8080
     
   keeweb:
-    image: viossat/keeweb:latest
+    image: dcsunset/keeweb:latest
+    ports:
+      - "8080:80"
     restart: unless-stopped
 
