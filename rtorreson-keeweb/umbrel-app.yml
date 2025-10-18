@@ -5,7 +5,7 @@ tagline: Free cross-platform password manager compatible with KeePass
 icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F1381%2FPNG%2F512%2Fkeeweb_93777.png&f=1&nofb=1&ipt=eda4a54bbbfad71269f371247901c8db19e1823a8eaf0d2541054b699f66e69c
 category: Security
 version: 1.0.0
-port: 443
+port: 80
 description: |-
   KeeWeb is a free and open-source password manager compatible with KeePass databases (.kdbx format). It's available as a web and desktop app with a clean, modern interface.
   Key features: - Compatible with KeePass database format - Cloud storage integration (Dropbox, Google Drive, OneDrive) - Offline access with local caching - Password generator - Theme customization - Plugin support - Strong AES-256 encryption - Auto-type and browser integration - Multiple database support
