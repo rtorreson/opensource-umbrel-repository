@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: rtorreson-superset
+name: Apache Superset
+tagline: Modern data exploration and visualization platform
+icon: https://superset.apache.org/img/superset-logo-horiz.svg
+category: Data & Analytics
+version: 1.0.0
+port: 8088
+description: |-
+  Apache Superset is a modern data exploration and visualization platform that makes it easy to explore and visualize data.
+  Key features: - Rich set of data visualizations - Easy-to-use interface for exploring data - SQL Lab for data preparation - Dashboard builder with drag-and-drop interface - Supports dozens of databases - Extensible security model - Caching layer for performance - RESTful API
+developer: Apache Software Foundation
+website: https://superset.apache.org
+submitter: Rafael Torreson
+submission: https://github.com/apache/superset
+repo: https://github.com/apache/superset
+support: https://github.com/apache/superset/issues
+gallery:
+- https://superset.apache.org/img/hero-screenshot.jpg
+- https://superset.apache.org/img/screenshots/gallery.jpg
+- https://superset.apache.org/img/screenshots/slack_dash.jpg
+- https://superset.apache.org/img/screenshots/explore.jpg
+- https://superset.apache.org/img/screenshots/sql_lab.jpg
+- https://superset.apache.org/img/databases/exasol.png
+- https://superset.staged.apache.org/superset-video-4k.mp4
+releaseNotes: Initial release of Apache Superset for Umbrel Community App Store.
+dependencies: []
+path: ''
