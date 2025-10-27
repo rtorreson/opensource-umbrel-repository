@@ -2,7 +2,7 @@ manifestVersion: 1
 id: rtorreson-metabase
 name: Metabase
 tagline: Open source business intelligence and analytics
-icon: https://www.metabase.com/images/logo-white.svg
+icon: https://www.vectorlogo.zone/logos/metabase/metabase-icon.svg
 category: Data & Analytics
 version: 1.0.0
 port: 3000
@@ -16,7 +16,15 @@ submission: https://github.com/metabase/metabase
 repo: https://github.com/metabase/metabase
 support: https://github.com/metabase/metabase/issues
 gallery:
-  - https://www.metabase.com/_next/image?url=%2Fimages%2Fproduct%2Fsmart-segmentation.webp&w=1920&q=75
+- https://www.metabase.com/images/product/business-intelligence/hero.png
+- https://www.metabase.com/images/product/business-intelligence/avoid-repeated-requests-1.png
+- https://www.metabase.com/images/product/business-intelligence/avoid-repeated-requests-2.png
+- https://www.metabase.com/images/product/business-intelligence/avoid-repeated-requests-3.png
+- https://www.metabase.com/images/product/business-intelligence/avoid-repeated-requests-4.png
+- https://www.metabase.com/images/product/business-intelligence/avoid-repeated-requests-5.png
+- https://www.metabase.com/images/product/business-intelligence/works-with-your-stack.svg
+- https://www.metabase.com/images/home/Sincera.mp4
+- https://www.metabase.com/images/home/dashboards.mp4
 releaseNotes: Initial release of Metabase for Umbrel Community App Store.
 dependencies: []
 path: ''
